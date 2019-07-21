@@ -31,12 +31,17 @@ const ArticleCard = (props) => {
 
 const List = styled.ul`
 list-style-type: circle;
+margin-left: 0px;
 color: ${props => props.accent};
 	&:hover {
 		list-style-type:disc;
 		color: ${props => props.accent};
+		background-color: ${props => props.theme};
+		animation: ${MoveUp} 0.3s;
+		animation-fill-mode: forwards;
 	}
-	@media(max-width: 700px) {
+	@media(max-width: 1100px) {
+		margin-left: 20px;
 	}
 `;
 
@@ -69,7 +74,6 @@ const Title = styled.div`
 	position: relative;
 	transition: opacity 0.3s;
 	:hover {
-		background-color: ${props => props.theme};
 	}
 `;
 

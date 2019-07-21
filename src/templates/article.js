@@ -211,7 +211,7 @@ const MetaHeader = styled.div`
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.35);
 	filter: opacity(100%);
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	line-height: 1.35;
 	font-weight: 500;
 	text-align: left;
@@ -236,7 +236,7 @@ margin-bottom: 5px;
 
 const Date = styled.div`
 @media(max-width: 720px) {
-	margin-top:15rem;
+	margin-top:20rem;
 	display:inline-block;
 }
 `;

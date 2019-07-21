@@ -12,9 +12,9 @@ showLiveContent: false
 
 ---
 
+
 #We were tasked to develop a technology-based solution that helps prepare youth for the future of work.
 Under the RBC's Corporate Citizenship, [Future Launch](https://www.rbc.com/dms/enterprise/futurelaunch/about.html) represents RBC’s largest ever commitment to a social issue. With the funding of half a billion dollars, the goal is to help Canadian youth aged 15-29 struggling for opportunities to find employment and elevate the Canadian economy. 
-
 
 
 #"Find a democratic solution that gives equal access and opportunity." 

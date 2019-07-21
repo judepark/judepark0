@@ -58,14 +58,14 @@ export const MoveUp = keyframes`
 
 export const LoadScreen = keyframes`
 	0% {
-		transform: scale(2);
+		transform: scaleX(2);
 		opacity: 1;
 	}
 	60% {
 		opacity: 0;
 	}
 	99% {
-		transform: scaleY(150.5);
+		transform: scaleY(50.5);
 		opacity: 0;
 	}
 	100% {
