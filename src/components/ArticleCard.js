@@ -16,6 +16,7 @@ const ArticleCard = (props) => {
 		<ArticleCardContainer>
 		<Title accent={props.data.frontmatter.accentColor} theme={props.data.frontmatter.themeColor}>{props.data.frontmatter.title}</Title>
 		<Date>{props.data.frontmatter.date}</Date>
+		
 		</ArticleCardContainer>
 </li>
 </List>
@@ -68,7 +69,7 @@ const Title = styled.div`
 	position: relative;
 	transition: opacity 0.3s;
 	:hover {
-		color: ${props => props.accent};
+		background-color: ${props => props.theme};
 	}
 `;
 

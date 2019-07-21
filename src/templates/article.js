@@ -206,10 +206,10 @@ export default function Template({ data }) {
 */
 
 const MetaHeader = styled.div`
-	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 0.8rem;
-	color: ${props => props.accentColor};
+	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
 	filter: opacity(100%);
 	letter-spacing: 1px;
 	line-height: 1.35;
@@ -306,7 +306,7 @@ const ImageLayout = styled.div`
 const ArticlePostTitle = styled.h1`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 45px + (50 - 45) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 40px + (45 - 40) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.80);
 	line-height: 1.35;
 	padding: 10px 15px 10px 15px;
@@ -621,7 +621,7 @@ export const query = graphql`
 			frontmatter {
 				title
 				url
-				date(formatString: "MMMM D, YYYY")
+				date(formatString: "MMM D, YYYY")
 				tags
 				themeColor
 				accentColor
