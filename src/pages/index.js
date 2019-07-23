@@ -146,13 +146,13 @@ const IndexPage = ({data}) => (
 	ABOUT
 	</PortfolioTitle>
 	
-	<HeaderSubtitle>			
+	<HeaderSubtitle>
 			<br/>
 			<strong>Jude Park</strong> is a User Experience Designer + Researcher 
-			who develops technologies for social change. 
+			who mobilize social change through technology.
 			Always asking what is fair in design, 
 			Jude is inventing a new approach 
-			to designing user experience. <FlipButton link="/fairdesignmovement" content="More ⯈" hoverContent="More ⯈"></FlipButton>
+			to designing user experience. <FlipButton link="/fairdesign" content="More ⯈" hoverContent="More ⯈"></FlipButton>
 			<br/>
 	</HeaderSubtitle>	
 

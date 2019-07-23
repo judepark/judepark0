@@ -8,9 +8,7 @@ const Footer = () => {
 		<div>
       <br />
       <footer>
-				Made with 💛 in Toronto
-       <br />
-			 © {new Date().getFullYear()} JUDE PARK
+			 © {new Date().getFullYear()} JUDE PARK <div style={{fontSize:"70%"}}>Made with 💛 in Toronto</div>
 			 <br />
 				{` `}
         </footer>

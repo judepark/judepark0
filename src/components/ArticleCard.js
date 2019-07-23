@@ -15,6 +15,7 @@ const ArticleCard = (props) => {
 <li>
 		<ArticleCardContainer>
 		<Title accent={props.data.frontmatter.accentColor} theme={props.data.frontmatter.themeColor}>{props.data.frontmatter.title}</Title>
+		
 		<Date>{props.data.frontmatter.date}</Date>
 		
 		</ArticleCardContainer>

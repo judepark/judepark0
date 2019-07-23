@@ -8,17 +8,85 @@ import { graphql } from "gatsby"
 
 import {fadeInDown} from './../animations/m-styled-animations'
 
-const FairDesignMovementPage = ({data}) => (
+const FairDesignPage = ({data}) => (
   <React.Fragment>
 	<Helmet title={data.site.siteMetadata.title + ' | ' + "About"}></Helmet>
 	<PageGrid>
 		<HeaderAction>
 			<HeaderTitle>
 			<br/><br/><br/><br/><br/><br/>
-			The Fair Design Movement
+			Fair Design
 			</HeaderTitle>
 		</HeaderAction>
 			
+		<HeaderAction>
+			<HeaderSubtitle>			
+			<br/>
+			"With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions."
+			<br/>
+			</HeaderSubtitle>		
+		</HeaderAction>
+
+	</PageGrid>
+
+	<PageGrid2>
+		<HeaderAction>
+			<PortfolioTitle>
+			ABOUT THE FRAMEWORK
+			</PortfolioTitle>
+		</HeaderAction>
+		<br/><br/><br/><br/>
+		<HeaderAction>
+			<HeaderSubtitle>
+			Fair Design is my mantra, perspective and mission as a designer,
+			to consider the privileges of the target user group in the design process.
+			<br/>
+			<br/>
+			To join the movement, download the declaration page to sign, and follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesignmovement&src=typd" target="_blank">#fairdesignmovement</a>
+			</HeaderSubtitle>
+		</HeaderAction>
+
+
+
+	</PageGrid2>
+
+	<PageGrid3>
+		<HeaderAction>
+			<PortfolioTitle>
+			THE DECLARATION
+			</PortfolioTitle>
+		</HeaderAction>
+		<br/><br/><br/><br/>
+		<HeaderAction>
+			<HeaderSubtitle>
+			<div style={{color: "hsla(0, 0%, 0%, 0.8)", fontSize:"70%"}}>
+			I as a Designer, will include the experiences of marginalized groups into my design process.
+			<br/>
+			<br/>
+			I shall not hide, avoid or diminish experiences of others, but integrate identities of people different from me into my work.
+			<br/>
+			<br/>
+			In order to create a seamless digital product and service that do not discriminate, bias or neglect,
+			<br/>
+			<br/>
+			I will advocate for the user in all their diversity.
+			<br/>
+			<br/>
+			With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions. 
+			<br/>
+			<br/>
+			<br/>
+			</div>
+			<FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Download the Form] ⯆"></FlipButton>
+			</HeaderSubtitle>
+		</HeaderAction>
+	</PageGrid3>
+  </React.Fragment>
+)
+
+
+/*
+
 		<HeaderAction>
 			<HeaderSubtitle>			
 			<br/>
@@ -50,12 +118,6 @@ const FairDesignMovementPage = ({data}) => (
 
 
 
-	</PageGrid>
-  </React.Fragment>
-)
-
-
-/*
 
 		<HeaderAction>
 			<HeaderTitle>
@@ -173,7 +235,34 @@ const PageGrid = styled.div`
 	& > * {
 		grid-column: center;
 	}
-`
+`;
+
+const PageGrid2 = styled.div`
+	display: inline-grid;
+	max-width: 60%;
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
+	& > * {
+		grid-column: center;
+	}
+	@media(max-width: 1000px) {
+		display: grid;
+		max-width: 100%;
+	}
+`;
+
+const PageGrid3 = styled.div`
+	display: inline-grid;
+	max-width: 40%;
+	margin-bottom:-120px;
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
+	& > * {
+		grid-column: center;
+	}
+	@media(max-width: 1000px) {
+		display: grid;
+		max-width: 100%;
+	}
+`;
 
 const HeaderAction = styled.div`
 	display: flex;
@@ -186,7 +275,7 @@ const HeaderAction = styled.div`
 	}
 `;
 
-const HeaderTitle = styled.h1`
+const HeaderTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
@@ -201,7 +290,7 @@ const HeaderTitle = styled.h1`
 	}
 `;
 
-const HeaderSubtitle = styled.h3`
+const HeaderSubtitle = styled.div`
 	margin-bottom: 100px;
 	max-width: 600px;
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -215,28 +304,9 @@ const HeaderSubtitle = styled.h3`
 	@media(max-width: 425px) {
 		margin-top: 130px;
 	}
-	a {
-		margin-bottom: 100px;
-		max-width: 350px;
-		font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-		color: hsla(45, 100%, 49%, 1.0);
-		letter-spacing: -.02em;
-		line-height: 1.35;
-		font-weight: normal;
-		max-width: 400px;
-		animation: ${fadeInDown} 0.5s;
-		@media(max-width: 425px) {
-			margin-top: 130px;
-		}
-		&:hover {
-			color: hsla(0, 0%, 0%, 0.80);
-		}
-	}
 `;
 
-const PortfolioTitle = styled.p`
+const PortfolioTitle = styled.div`
 	margin-bottom: -20px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -251,7 +321,7 @@ const PortfolioTitle = styled.p`
 	}
 `;
 
-export default FairDesignMovementPage
+export default FairDesignPage
 
 export const query = graphql`
 	query SiteTitlePhotoQuery {
