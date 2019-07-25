@@ -131,6 +131,12 @@ const IndexPage = ({data}) => (
 
 <Gallery>
 
+<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-Stakeholder-Presentation"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="210" height="155"></img><GalleryItem>Lumii: Stakeholder Presentation</GalleryItem></a>
+
+<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="210" height="155"></img><GalleryItem>Experience Map of Robarts Library</GalleryItem></a>
+
+<a class="grid-img" href="https://dribbble.com/shots/6839229-Supporting-Faculty-Response-to-Student-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="210" height="155"></img><GalleryItem>Supporting Faculty Response to Student Mental Health</GalleryItem></a>
+
 <a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>Book of Revelations</GalleryItem></a>
 
 <a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>JUDE Journal</GalleryItem></a>
@@ -445,7 +451,7 @@ color: hsla(0, 0%, 0%, 0.35);
 `;
 
 const GalleryItem = styled.div`
-margin-bottom: -40px;
+margin-bottom: 0px;
 margin-top: -30px;
 `;
 
