@@ -32,20 +32,19 @@ const FairDesignPage = ({data}) => (
 	<PageGrid2>
 		<HeaderAction>
 			<PortfolioTitle>
-			ABOUT THE FRAMEWORK
+			ABOUT THE RESEARCH
 			</PortfolioTitle>
 		</HeaderAction>
 		<br/><br/><br/><br/>
 		<HeaderAction>
 			<HeaderSubtitle>
-			Fair Design is my mantra, perspective and mission as a designer,
-			to consider the privileges of the target user group in the design process.
+			Fair Design is an experimental research into how we can mobilize design communities
+			to become advocates for inclusion and fair access.
 			<br/>
 			<br/>
-			To join the movement, download the declaration page to sign, and follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesignmovement&src=typd" target="_blank">#fairdesignmovement</a>
+			To contribute to the research, you can fill out sthe declaration page to sign, and follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesign&src=typd" target="_blank">#fairdesign</a>
 			</HeaderSubtitle>
 		</HeaderAction>
-
 
 
 	</PageGrid2>
@@ -77,7 +76,7 @@ const FairDesignPage = ({data}) => (
 			<br/>
 			<br/>
 			</div>
-			<FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Download the Form] ⯆"></FlipButton>
+			<FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Sign the Form] ⯆"></FlipButton>
 			</HeaderSubtitle>
 		</HeaderAction>
 	</PageGrid3>
