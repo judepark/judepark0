@@ -32,27 +32,30 @@ const FairDesignPage = ({data}) => (
 	<PageGrid2>
 		<HeaderAction>
 			<PortfolioTitle>
-			ABOUT THE RESEARCH
+			ABOUT FAIR DESIGN
 			</PortfolioTitle>
 		</HeaderAction>
 		<br/><br/><br/><br/>
 		<HeaderAction>
 			<HeaderSubtitle>
+			My mission as a designer is to consider the privileges of the target user group in the design process.
+			<br/>
+			<br/>
 			Fair Design is an experimental research into how we can mobilize design communities
 			to become advocates for inclusion and fair access.
 			<br/>
 			<br/>
-			To contribute to the research, you can fill out sthe declaration page to sign, and follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesign&src=typd" target="_blank">#fairdesign</a>
+			To find out more, follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesign&src=typd" target="_blank">#fairdesign</a>
+
 			</HeaderSubtitle>
 		</HeaderAction>
-
 
 	</PageGrid2>
 
 	<PageGrid3>
 		<HeaderAction>
 			<PortfolioTitle>
-			THE DECLARATION
+			MY MISSION
 			</PortfolioTitle>
 		</HeaderAction>
 		<br/><br/><br/><br/>
@@ -74,9 +77,10 @@ const FairDesignPage = ({data}) => (
 			With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions. 
 			<br/>
 			<br/>
-			<br/>
 			</div>
-			<FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Sign the Form] ⯆"></FlipButton>
+			<img src="https://66.media.tumblr.com/344939a902a4a8eecd13dccff551ad57/tumblr_pvh645gOXF1taz7avo1_1280.png" alt="" width="105" height="50"></img>
+
+
 			</HeaderSubtitle>
 		</HeaderAction>
 	</PageGrid3>
@@ -225,6 +229,7 @@ const FairDesignPage = ({data}) => (
 
 <FlipButton link="mailto:jude@judepark.com" content="Hire Me" hoverContent="I'm Available"></FlipButton>
 
+<FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Download the Form] ⯆"></FlipButton>
 
 */
 

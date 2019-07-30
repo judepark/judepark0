@@ -253,10 +253,10 @@ const SiteSocial = styled.ul`
 		}
 	}
 	@media(max-width: 1155px) {
-		margin-right: 0;
+		
 	}
 	@media(max-width: 720px) {
-		margin-right: 0;
+		
 	}
 `;
 
@@ -369,7 +369,7 @@ const HeaderTitle = styled.div`
 	margin-top: 190px;
 	letter-spacing:0.2px;
 	@media(max-width: 720px) {
-		margin-top: 130px;
+		
 	}
 `;
 
@@ -377,7 +377,7 @@ const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
 	width: 50%;
-	@media(max-width: 720px) {
+	@media(max-width: 820px) {
 		width: 100%;
 	}
 `;
@@ -394,7 +394,7 @@ const HeaderSubtitle = styled.div`
 	font-weight: normal;
 	animation: ${fadeInDown} 1s;
 	@media(max-width: 425px) {
-		margin-top: 130px;
+		
 	}
 `;
 
@@ -410,7 +410,6 @@ const PortfolioTitle = styled.div`
 	font-weight: normal;
 	animation: ${fadeInDown} 0.5s;
 	@media(maxs-width: 425px) {
-		margin-top: 130px;
 	}
 `;
 
