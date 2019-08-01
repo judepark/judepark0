@@ -317,7 +317,6 @@ const HeaderSubtitle2 = styled.div`
 	font-weight: normal;
 	animation: ${fadeInDown} 0.5s;
 	@media(max-width: 425px) {
-		margin-top: 130px;
 	}
 `;
 
