@@ -12,56 +12,50 @@ const FairDesignPage = ({data}) => (
   <React.Fragment>
 	<Helmet title={data.site.siteMetadata.title + ' | ' + "About"}></Helmet>
 	<PageGrid>
-		<HeaderAction>
 			<HeaderTitle>
 			<br/><br/><br/><br/><br/><br/>
 			Fair Design
 			</HeaderTitle>
-		</HeaderAction>
 			
-		<HeaderAction>
 			<HeaderSubtitle>			
 			<br/>
 			"With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions."
 			<br/>
 			</HeaderSubtitle>		
-		</HeaderAction>
-
 	</PageGrid>
 
+	<br/><br/><br/>
+
 	<PageGrid2>
-		<HeaderAction>
 			<PortfolioTitle>
 			ABOUT FAIR DESIGN
 			</PortfolioTitle>
-		</HeaderAction>
-		<br/><br/><br/><br/>
-		<HeaderAction>
 			<HeaderSubtitle>
+			<br/>
 			My mission as a designer is to consider the privileges of the target user group in the design process.
 			<br/>
 			<br/>
 			Fair Design is an experimental research into how we can mobilize design communities
-			to become advocates for inclusion and fair access.
+			to become advocates for inclusion and fair access, by exposing harmful design choices
+			practiced in the tech industry.
 			<br/>
 			<br/>
 			To find out more, follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesign&src=typd" target="_blank">#fairdesign</a>
 
 			</HeaderSubtitle>
-		</HeaderAction>
 
 	</PageGrid2>
 
 	<PageGrid3>
-		<HeaderAction>
+			
+
 			<PortfolioTitle>
 			MY MISSION
 			</PortfolioTitle>
-		</HeaderAction>
-		<br/><br/><br/><br/>
-		<HeaderAction>
-			<HeaderSubtitle>
+
+			<HeaderSubtitle2>
 			<div style={{color: "hsla(0, 0%, 0%, 0.8)", fontSize:"70%"}}>
+			<br/>
 			I as a Designer, will include the experiences of marginalized groups into my design process.
 			<br/>
 			<br/>
@@ -77,12 +71,13 @@ const FairDesignPage = ({data}) => (
 			With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions. 
 			<br/>
 			<br/>
+			<br/>
 			</div>
-			<img src="https://66.media.tumblr.com/344939a902a4a8eecd13dccff551ad57/tumblr_pvh645gOXF1taz7avo1_1280.png" alt="" width="105" height="50"></img>
+			<img src="https://66.media.tumblr.com/03376a894b39368a366e55796365a1d4/tumblr_pviqu8QZ1q1taz7avo1_1280.png" alt="" width="95" height="35"></img>
 
 
-			</HeaderSubtitle>
-		</HeaderAction>
+			</HeaderSubtitle2>
+
 	</PageGrid3>
   </React.Fragment>
 )
@@ -235,6 +230,7 @@ const FairDesignPage = ({data}) => (
 
 const PageGrid = styled.div`
 	display: grid;
+	margin-bottom: -100px;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -258,6 +254,7 @@ const PageGrid3 = styled.div`
 	display: inline-grid;
 	max-width: 40%;
 	margin-bottom:-120px;
+	background-color: white;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -290,7 +287,6 @@ const HeaderTitle = styled.div`
 	max-width: 800px;
 	letter-spacing: 0.2px;
 	@media(max-width: 425px) {
-		margin-top: 130px;
 	}
 `;
 
@@ -310,8 +306,25 @@ const HeaderSubtitle = styled.div`
 	}
 `;
 
+const HeaderSubtitle2 = styled.div`
+	margin-bottom: 0px;
+	max-width: 600px;
+	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	letter-spacing: -.02em;
+	line-height: 1.35;
+	font-weight: normal;
+	animation: ${fadeInDown} 0.5s;
+	@media(max-width: 425px) {
+		margin-top: 130px;
+	}
+`;
+
 const PortfolioTitle = styled.div`
-	margin-bottom: -20px;
+	margin-bottom: 30px;
+	margin-top: 60px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
@@ -321,7 +334,6 @@ const PortfolioTitle = styled.div`
 	font-weight: normal;
 	animation: ${fadeInDown} 0.5s;
 	@media(maxs-width: 425px) {
-		margin-top: 130px;
 	}
 `;
 

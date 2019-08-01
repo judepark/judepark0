@@ -19,6 +19,7 @@ html {
 	margin: 0 auto;
 	box-sizing: border-box;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	background-color: hsla(0, 0%, 0%, 0.02);
 }
 body {
