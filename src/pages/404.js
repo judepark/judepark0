@@ -4,14 +4,12 @@ import styled from 'styled-components'
 import { graphql } from "gatsby"
 import {fadeInDown} from './../animations/m-styled-animations'
 
-import {FaLinkedin} from 'react-icons/fa'
-import {FaMedium} from 'react-icons/fa'
-import {FaDribbble} from 'react-icons/fa'
-import {FaTwitter} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa'
-import {FaVimeo} from 'react-icons/fa'
 import {FaEnvelope} from 'react-icons/fa'
-import {FaYoutube} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+import {FaDribbble} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 
 const iconSize = 23;
 
@@ -44,6 +42,13 @@ const NotFoundPage = () => (
 				</IconLinkedin>
 			</li>
 			<li>
+				<IconInstagram>
+				<a href="https://www.instagram.com/judepark/" target="_blank">
+					<FaInstagram size={iconSize}/>
+				</a>
+				</IconInstagram>
+			</li>
+			<li>
 				<IconTwitter>
 				<a href="https://twitter.com/judepark/" target="_blank">
 					<FaTwitter size={iconSize}/>
@@ -58,25 +63,11 @@ const NotFoundPage = () => (
 				</IconDribble>
 			</li>
 			<li>
-				<IconMedium>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaMedium size={iconSize}/>
-				</a>
-				</IconMedium>
-			</li>
-			<li>
 				<IconGithub>
 				<a href="https://github.com/judepark/" target="_blank">
 					<FaGithub size={iconSize}/>
 				</a>
 				</IconGithub>
-			</li>
-			<li>
-				<IconVimeo>
-				<a href="https://vimeo.com/judepark/" target="_blank">
-					<FaVimeo size={iconSize}/>
-				</a>
-				</IconVimeo>
 			</li>
 		</SiteSocial>
 
@@ -90,18 +81,6 @@ const NotFoundPage = () => (
 	<MButton to="/">Go Back</MButton>
   </ErrorPageGrid>
 )
-
-/*
-
-			<li>
-				<IconYoutube>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaYoutube size={iconSize}/>
-				</a>
-				</IconYoutube>
-			</li>
-
-*/
 
 const SiteSocial = styled.ul`
 	display: flex;
@@ -150,6 +129,14 @@ const IconLinkedin = styled.ul`
 a {
 	&:hover {
 		color: #0077B5;
+		}
+	}
+`;
+
+const IconInstagram = styled.ul`
+a {
+	&:hover {
+		color: #e95950;
 		}
 	}
 `;

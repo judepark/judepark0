@@ -9,14 +9,12 @@ import {LoadScreen} from './../animations/m-styled-animations'
 import LiveContentCard from '../components/LiveContentCard'
 
 
-import {FaLinkedin} from 'react-icons/fa'
-import {FaMedium} from 'react-icons/fa'
-import {FaDribbble} from 'react-icons/fa'
-import {FaTwitter} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa'
-import {FaVimeo} from 'react-icons/fa'
 import {FaEnvelope} from 'react-icons/fa'
-import {FaYoutube} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+import {FaDribbble} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 
 import {FaRegImage} from 'react-icons/fa'
 import {FaCreativeCommons} from 'react-icons/fa'
@@ -63,7 +61,6 @@ export default function Template({ data }) {
 		<br/>
 
 
-		<ArticleContentGrid>
 			<ArticleDetails>
 				<div>
 				<ImageAuthor>
@@ -71,11 +68,6 @@ export default function Template({ data }) {
 				</ImageAuthor>
 				</div>
 			</ArticleDetails>
-		</ArticleContentGrid>
-
-
-
-		<br/>
 
 		<ArticleContentGrid2 accentColor={data.markdownRemark.frontmatter.accentColor} themeColor={data.markdownRemark.frontmatter.themeColor}>
 
@@ -91,7 +83,9 @@ export default function Template({ data }) {
 
 		<BackgroundColor themeColor={data.markdownRemark.frontmatter.themeColor}/>
 
-		
+		<br/>
+		<br/>
+
 		<Footer themeColor={data.markdownRemark.frontmatter.themeColor}>
 
 		<Line>
@@ -103,7 +97,7 @@ export default function Template({ data }) {
 		</HeaderTitle>
 		
 		<SiteSocial accentColor={data.markdownRemark.frontmatter.accentColor}>
-		<li>
+			<li>
 				<IconMail>
 				<a href="mail:jude@judepark.com" target="_blank">
 					<FaEnvelope size={iconSize}/>
@@ -116,6 +110,13 @@ export default function Template({ data }) {
 					<FaLinkedin size={iconSize}/>
 				</a>
 				</IconLinkedin>
+			</li>
+			<li>
+				<IconInstagram>
+				<a href="https://www.instagram.com/judepark/" target="_blank">
+					<FaInstagram size={iconSize}/>
+				</a>
+				</IconInstagram>
 			</li>
 			<li>
 				<IconTwitter>
@@ -132,25 +133,11 @@ export default function Template({ data }) {
 				</IconDribble>
 			</li>
 			<li>
-				<IconMedium>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaMedium size={iconSize}/>
-				</a>
-				</IconMedium>
-			</li>
-			<li>
 				<IconGithub>
 				<a href="https://github.com/judepark/" target="_blank">
 					<FaGithub size={iconSize}/>
 				</a>
 				</IconGithub>
-			</li>
-			<li>
-				<IconVimeo>
-				<a href="https://vimeo.com/judepark/" target="_blank">
-					<FaVimeo size={iconSize}/>
-				</a>
-				</IconVimeo>
 			</li>
 		</SiteSocial>
 
@@ -253,6 +240,13 @@ const ArticleHeadingBanner = styled.div`
 		--accent-color: ${props => props.themeColor};
 		background: var(--accent-color, black);
 		z-index: -2;
+		@media (max-width: 720px) {
+			left: 0vw;
+			height: 100vh;
+			top: -23vh;
+			right: -30vw;
+			transform: rotate(0deg);
+		}
 `;
 
 
@@ -465,7 +459,7 @@ const BackgroundColor = styled.div`
 
 const Footer = styled.div`
 	background-color: ${props => props.themeColor};
-	margin-bottom: -170px;
+	margin-bottom: -190px;
 	display: grid;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
@@ -521,6 +515,14 @@ const IconLinkedin = styled.ul`
 a {
 	&:hover {
 		color: #0077B5;
+		}
+	}
+`;
+
+const IconInstagram = styled.ul`
+a {
+	&:hover {
+		color: #e95950;
 		}
 	}
 `;

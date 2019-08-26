@@ -8,6 +8,7 @@ accentColor: "#4779DB"
 image: "mockup2.png"
 thumb: "dell-welcome-thumb.jpg"
 imageauthor: "Jude Park"
+highlight: "no"
 showLiveContent: false
 
 ---

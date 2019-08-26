@@ -8,6 +8,7 @@ accentColor: "#b39009"
 image: "Untitled3.png"
 thumb: "Untitled2.png"
 imageauthor: "Jude Park"
+highlight: "no"
 showLiveContent: false
 
 ---

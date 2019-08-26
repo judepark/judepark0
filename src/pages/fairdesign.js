@@ -12,9 +12,10 @@ const FairDesignPage = ({data}) => (
   <React.Fragment>
 	<Helmet title={data.site.siteMetadata.title + ' | ' + "About"}></Helmet>
 	<PageGrid>
+			
 			<HeaderTitle>
 			<br/><br/><br/><br/><br/><br/>
-			Fair Design
+			<strong>Fair Design</strong>: My Design Methodology
 			</HeaderTitle>
 			
 			<HeaderSubtitle>			
@@ -27,17 +28,24 @@ const FairDesignPage = ({data}) => (
 	<br/><br/><br/>
 
 	<PageGrid2>
+
 			<PortfolioTitle>
-			ABOUT FAIR DESIGN
+			HOW I WORK
 			</PortfolioTitle>
 			<HeaderSubtitle>
 			<br/>
-			My mission as a designer is to consider the privileges of the target user group in the design process.
+			As a designer I consider the privileges of the target user group in the design process.
 			<br/>
 			<br/>
-			Fair Design is an experimental research into how we can mobilize design communities
-			to become advocates for inclusion and fair access, by exposing harmful design choices
-			practiced in the tech industry.
+			Fair Design examines and measures social privileges, and its effects on the experience of a digital product.  
+			<br/>
+			<br/>
+			The values provided are fairer access to information for the users, and responsible business practices that positively impacts
+			the reputation and sustainability of corporations operating in the 21st century.
+			<br/>
+			<br/>
+			I implement this design strategy to avoid harmful design choices, 
+			in an effort to promote an ethical future.
 			<br/>
 			<br/>
 			To find out more, follow the hashtag: <a href="https://twitter.com/search?q=%23fairdesign&src=typd" target="_blank">#fairdesign</a>
@@ -79,6 +87,60 @@ const FairDesignPage = ({data}) => (
 			</HeaderSubtitle2>
 
 	</PageGrid3>
+
+
+	<PageGrid>
+			
+			<PortfolioTitle>
+			TOOLS I USE
+			</PortfolioTitle>
+			
+			<HeaderSubtitle>			
+			<br/>
+			"With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions."
+			<br/>
+			</HeaderSubtitle>		
+	</PageGrid>
+
+	<br/><br/><br/>
+
+	<PageGrid>
+			
+			<PortfolioTitle>
+			MY STORY
+			</PortfolioTitle>
+			
+			<HeaderSubtitle>			
+			<br/>
+			I like to say design is what I do but it's not who I am. 
+			<br/>
+			<br/>
+			More importantly I am a proud Korean - with Busan values with Jane & Weston upbringing and successfully white-acting in Canadian culture.
+			<br/>
+			<br/>
+			After immigrating to Canada from South Korea at age 9, I was abandoned by my parents shortly after, 
+			and grew up in poverty and constant fear and loneliness. I was a shy but also very sociable kid and chose 
+			to study history as my major because I loved to read and I liked writing.
+			<br/>
+			<br/>
+			In university I discovered Anthropolgy and Linguistics and three-majored in Humanities, and 
+			was going to become a Librarian. During my Masters of Information, I discovered UX, design and technology and
+			changed careers because I wanted to make bigger impacts with the help of technology.
+			<br/>
+			<br/>
+			I worked on some pretty awesome projects so far, working in the Future of Work space by creating an AI chatbot that 
+			helped young Canadians become more employable, and helping to launch a non-profit that helps to bridge struggling
+			high school students in underrepresented communities to a successful career.
+			<br/>
+			<br/>
+			I believe in improving myself constantly, and view design, engineering and business as skillsets I want to master for success,
+			and use this philosophy when I approach work. I want to work on projects that elevates us into fairer practice - 
+			in design, technology, and how we help one another.
+			<br/>
+			</HeaderSubtitle>		
+	</PageGrid>
+
+
   </React.Fragment>
 )
 
@@ -225,6 +287,12 @@ const FairDesignPage = ({data}) => (
 <FlipButton link="mailto:jude@judepark.com" content="Hire Me" hoverContent="I'm Available"></FlipButton>
 
 <FlipButton link="mailto:jude@judepark.com" content="[SIGNATURE] ⯆" hoverContent="[Download the Form] ⯆"></FlipButton>
+
+
+
+			The values provided are fairer access to information, and responsible business decisions that translates well 
+			for sustainability of corporations operating in the 21st century landscape.
+
 
 */
 

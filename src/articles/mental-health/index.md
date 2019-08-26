@@ -8,6 +8,7 @@ accentColor: "#d1713d"
 image: "1.png"
 thumb: "gearhead-forge-thumb.jpg"
 imageauthor: "Jude Park"
+highlight: "no"
 showLiveContent: false
 
 ---
