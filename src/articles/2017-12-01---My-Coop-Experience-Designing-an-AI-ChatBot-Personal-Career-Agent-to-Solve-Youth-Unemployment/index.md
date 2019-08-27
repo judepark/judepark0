@@ -1,5 +1,5 @@
 ---
-title: " Solving Youth Unemployment through Co-Design"
+title: "My Coop Experience: Designing an AI ChatBot Personal Career Agent to Solve Youth Unemployment"
 url: ""
 date: "2017-12-01"
 tags: ["Animals", "Chicago", "Zoos"]
@@ -8,7 +8,7 @@ accentColor: "#b39009"
 image: "Untitled3.png"
 thumb: "Untitled2.png"
 imageauthor: "Jude Park"
-highlight: "no"
+highlight: "yes"
 showLiveContent: false
 
 ---

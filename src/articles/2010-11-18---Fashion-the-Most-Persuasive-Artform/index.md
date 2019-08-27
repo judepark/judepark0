@@ -8,7 +8,7 @@ accentColor: "#024d07"
 image: "1.png"
 thumb: "1.png"
 imageauthor: "Yves Saint Laurent"
-highlight: "yes"
+highlight: "no"
 showLiveContent: false
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "Investigating Canada's Post Secondary Mental Health Ecosystem"
+title: "UX Research Project: Investigating Canada's Post Secondary Mental Health Ecosystem"
 url: ""
 date: "2016-05-07"
 tags: ["Animals", "Chicago", "Zoos"]
-themeColor: "#fff0e8"
-accentColor: "#d1713d"
+themeColor: "#e6f7f6"
+accentColor: "#008780"
 image: "1.png"
 thumb: "gearhead-forge-thumb.jpg"
 imageauthor: "Jude Park"
-highlight: "no"
+highlight: "yes"
 showLiveContent: false
 
 ---

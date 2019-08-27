@@ -1,5 +1,5 @@
 ---
-title: "Founding the Fair Design Methodlogy"
+title: "What is Fair Design? And Why Do I Base My Design Process Around It?"
 url: ""
 date: "2016-12-01"
 tags: ["Animals", "Chicago", "Zoos"]
@@ -8,7 +8,7 @@ accentColor: "#4779DB"
 image: "mockup2.png"
 thumb: "dell-welcome-thumb.jpg"
 imageauthor: "Jude Park"
-highlight: "no"
+highlight: "yes"
 showLiveContent: false
 
 ---
