@@ -14,6 +14,7 @@ const ArticleCard = (props) => {
 <List accent={props.data.frontmatter.accentColor} theme={props.data.frontmatter.themeColor}>
 <li>
 		<ArticleCardContainer>
+
 		<Title accent={props.data.frontmatter.accentColor} theme={props.data.frontmatter.themeColor}>{props.data.frontmatter.title}</Title>
 		
 		<Date>{props.data.frontmatter.date}</Date>
@@ -60,19 +61,15 @@ const ArticleCardContainer = styled.div`
 `;
 
 const Title = styled.div`
-	margin-top: 0px;
-	margin-right: 20px;
-	font-weight: normal;
-	letter-spacing: -.02em;
-	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.8);
-	display: inline-block;
-	line-height: 1.35;
-	opacity: 1;
-	border-bottom: 0px;
-	position: relative;
+font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+color: hsla(0, 0%, 0%, 0.35);
+line-height: 1.35;
+letter-spacing: 0.5px;
+margin-bottom: -5px;
+font-weight: normal;
+color: hsla(0, 0%, 0%, 0.35);
 	transition: opacity 0.3s;
 	:hover {
 	}

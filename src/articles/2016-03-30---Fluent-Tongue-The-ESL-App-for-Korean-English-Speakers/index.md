@@ -8,7 +8,7 @@ accentColor: "#024d07"
 image: "1.png"
 thumb: "1.png"
 imageauthor: "International Phonetic Alphabet chart"
-highlight: "yes"
+highlight: "no"
 showLiveContent: false
 ---
 

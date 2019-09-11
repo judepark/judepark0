@@ -160,7 +160,7 @@ TOOLS I USE
 	<BookShelf>
 
 	<a class="grid-img" href="https://www.goodreads.com/book/show/20830437-css-secrets">
-	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442750268l/20830437._SX318_.jpg" alt="" width="188" ></img>
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442750268l/20830437._SX318_.jpg" alt="" width="150" ></img>
 	<BookItem>
 	<strong>CSS Secrets</strong>
 	<br/>
@@ -169,7 +169,7 @@ TOOLS I USE
 	</a>
 
 	<a class="grid-img" href="https://www.goodreads.com/book/show/16280._Why_Are_All_The_Black_Kids_Sitting_Together_in_the_Cafeteria_">
-	<img src="https://images-na.ssl-images-amazon.com/images/I/51pSmczbnIL._SX331_BO1,204,203,200_.jpg" alt="" width="188" ></img>
+	<img src="https://images-na.ssl-images-amazon.com/images/I/51pSmczbnIL._SX331_BO1,204,203,200_.jpg" alt="" width="150" ></img>
 	<BookItem>
 	<strong>Why Are All The Black Kids Sitting Together in the Cafeteria?</strong>
 	<br/>
@@ -178,13 +178,77 @@ TOOLS I USE
 	</a>
 	
 	<a class="grid-img" href="https://www.goodreads.com/en/book/show/3185869">
-	<img src="https://syndetics.com/index.aspx?isbn=9781552451953/LC.gif&client=416-978-7639" alt="" width="188" ></img>
+	<img src="https://syndetics.com/index.aspx?isbn=9781552451953/LC.gif&client=416-978-7639" alt="" width="150" ></img>
 	<BookItem>
 	<strong>Stunt</strong>
 	<br/>
 	Claudia Dey
 	</BookItem>
 	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/29209.The_Color_of_Water?ac=1&from_search=true">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401311300l/29209.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>The Color of Water</strong>
+	<br/>
+	James McBride
+	</BookItem>
+	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/395040.The_Bell_Jar">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1297266095l/395040.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>The Bell Jar</strong>
+	<br/>
+	Sylvia Plath
+	</BookItem>
+	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/3544466-a-fraction-of-the-whole">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437883191l/3544466._SY475_.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>A Fraction of a Whole</strong>
+	<br/>
+	Steve Toltz
+	</BookItem>
+	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/822195.Don_Quixote">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349057470l/822195.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>Don Quixote</strong>
+	<br/>
+	Miguel de Cervantes Saavedra 
+	</BookItem>
+	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/8253266-a-company-of-fools">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328002565l/8253266.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>A Company of Fools</strong>
+	<br/>
+	Deborah Ellis
+	</BookItem>
+	</a>
+	
+	<a class="grid-img" href="https://www.goodreads.com/book/show/15804129-the-picture-of-dorian-gray">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546419467l/15804129._SY475_.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>The Picture of Dorian Gray</strong>
+	<br/>
+	Oscar Wilde
+	</BookItem>
+	</a>
+
+	<a class="grid-img" href="https://www.goodreads.com/book/show/78411.The_Bad_Beginning?from_search=true">
+	<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490085391l/78411._SX318_.jpg" alt="" width="150" ></img>
+	<BookItem>
+	<strong>A Series of Unfortunate Events</strong>
+	<br/>
+	Lemony Snicket
+	</BookItem>
+	</a>
+
 
 	</BookShelf>
 
@@ -201,13 +265,13 @@ TOOLS I USE
 <PageGrid2>
 
 <PortfolioTitle>
-Music
+MUSIC
 </PortfolioTitle>
 
 <BookShelf>
 
 <a class="grid-img" href="https://open.spotify.com/album/3Yko2SxDk4hc6fncIBQlcM">
-<img width="200" src="https://66.media.tumblr.com/96ebafe90ed128887c54f062b31601ee/tumblr_pwrvr8RJVr1taz7avo1_640.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+<img width="150" src="https://66.media.tumblr.com/96ebafe90ed128887c54f062b31601ee/tumblr_pwrvr8RJVr1taz7avo1_640.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
 	<Item>
 	<strong>A Seat at the Table</strong>
 	<br/>
@@ -216,7 +280,7 @@ Music
 </a>
 
 <a class="grid-img" href="https://open.spotify.com/album/1DK7dxeuo9R1Ma0iaZBz3f">
-<img width="200" src="https://img.discogs.com/qSzFlHvo8ZGGjYNW5-IvpW6kFiI=/fit-in/526x526/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4628770-1370408297-1529.jpeg.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+<img width="150" src="https://img.discogs.com/qSzFlHvo8ZGGjYNW5-IvpW6kFiI=/fit-in/526x526/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4628770-1370408297-1529.jpeg.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
 	<Item>
 	<strong>Avalanche</strong>
 	<br/>
@@ -225,7 +289,7 @@ Music
 </a>
 
 <a class="grid-img" href="https://open.spotify.com/album/4oZPvPBdbo9MNveG5BtL2Z">
-<img width="200" src="https://cdn-s3.allmusic.com/release-covers/500/0000/146/0000146568.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+<img width="150" src="https://cdn-s3.allmusic.com/release-covers/500/0000/146/0000146568.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
 	<Item>
 	<strong>Grace</strong>
 	<br/>
@@ -233,8 +297,17 @@ Music
 	</Item>
 </a>
 
+<a class="grid-img" href="https://open.spotify.com/artist/6evmYxFbDSIHilUaYC9MhL">
+<img width="150" src="https://img.discogs.com/Fz61HkEu6iZQ6E92kZQZ5aV3NUY=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12856627-1543267181-9785.jpeg.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>The Wonder Land</strong>
+	<br/>
+	Jaurim
+	</Item>
+</a>
+
 <a class="grid-img" href="https://open.spotify.com/album/7L6gqLdAo3t6DOJKiVInks">
-<img width="200" src="http://1.bp.blogspot.com/-SKlqQbJnBX8/UymMsNXoW0I/AAAAAAAAECM/2jEA3caTX-s/s1600/cover.png" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+<img width="150" src="http://1.bp.blogspot.com/-SKlqQbJnBX8/UymMsNXoW0I/AAAAAAAAECM/2jEA3caTX-s/s1600/cover.png" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
 	<Item>
 	<strong>Gemini</strong>
 	<br/>
@@ -246,7 +319,59 @@ Music
 
 	</PageGrid2>
 
+	<PageGrid2>
 
+<PortfolioTitle>
+MOVIES
+</PortfolioTitle>
+
+<BookShelf>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0133093/">
+<img width="150" src="http://barkerhost.com/wp-content/uploads/sites/4/2019/03/gynBNzwyaHKtXqlEKKLioNkjKgN-1.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>The Matrix</strong>
+	</Item>
+</a>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0457430/?ref_=nv_sr_1?ref_=nv_sr_1">
+<img width="150" src="https://m.media-amazon.com/images/M/MV5BMTU3ODg2NjQ5NF5BMl5BanBnXkFtZTcwMDEwODgzMQ@@._V1_SY1000_CR0,0,679,1000_AL_.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>Pan's Labyrinth</strong>
+	</Item>
+</a>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0424136/?ref_=nv_sr_1?ref_=nv_sr_1">
+<img width="150" src="https://m.media-amazon.com/images/M/MV5BMTc0MzgzNTI3N15BMl5BanBnXkFtZTcwNDk3MDIzMQ@@._V1_SY1000_SX675_AL_.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>Hard Candy</strong>
+	</Item>
+</a>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0054988/?ref_=nv_sr_1?ref_=nv_sr_1">
+<img width="150" src="https://m.media-amazon.com/images/M/MV5BNTBlZjE2OGUtNmI5MS00ZjhkLWFmZmMtYmIxOWE2MTMxYTZlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,655,1000_AL_.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>Homicidal</strong>
+	</Item>
+</a>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0097576/?ref_=nv_sr_1?ref_=nv_sr_1">
+<img width="150" src="https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,678,1000_AL_.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>Indiana Jones and the Last Crusade</strong>
+	</Item>
+</a>
+
+<a class="grid-img" href="https://www.imdb.com/title/tt0058279/?ref_=nv_sr_1?ref_=nv_sr_1">
+<img width="150" src="https://m.media-amazon.com/images/M/MV5BZmM1ZmRkMjItZjc3Ny00ZWQzLWFhYmUtMWE0Y2QwOWY0MTMxXkEyXkFqcGdeQXVyMTIyNzY1NzM@._V1_SY1000_CR0,0,703,1000_AL_.jpg" frameborder="0" allowtransparency="true" allow="encrypted-media"></img>
+	<Item>
+	<strong>Kwaidan</strong>
+	</Item>
+</a>
+
+</BookShelf>
+
+	</PageGrid2>
 
 
 
@@ -320,33 +445,6 @@ VIDEOS
 
 	</PageGrid2>
 
-
-
-
-
-
-
-
-	<PageGrid2>
-
-<PortfolioTitle>
-Music
-</PortfolioTitle>
-
-<Shelf>
-
-
-<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS">
-<iframe width="300" height="380" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTkxQvqMy4WW" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-	<Item>
-	<strong>Life Lessons From 100-Year-Olds</strong>
-	</Item>
-</a>
-
-
-</Shelf>
-
-	</PageGrid2>
 
   </React.Fragment>
 )
@@ -471,8 +569,8 @@ const PortfolioTitle = styled.div`
 
 const BookShelf = styled.div`
 display: grid;
-grid-template-columns: repeat(5, 0fr);
-grid-template-rows: repeat(5, 0fr);
+grid-template-columns: repeat(6, 0fr);
+grid-template-rows: repeat(6, 0fr);
 margin-bottom: 20px;
 grid-gap: 20px;
 animation: ${fadeInDown} 1s;

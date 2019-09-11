@@ -106,6 +106,238 @@ const IndexPage = ({data}) => (
 	<PageGrid2>
 
 	<PortfolioTitle>
+	CASE STUDY
+	</PortfolioTitle>
+
+		<ArticleCardGrid>
+
+			{data.allMarkdownRemark.edges.map(({node}) => (
+				<ArticleCard data={node} key={node.key}></ArticleCard>
+			))}
+
+		</ArticleCardGrid>
+	</PageGrid2>
+
+	
+	<PageGrid2>
+
+	<PortfolioTitle>
+	DRIBBLE
+	</PortfolioTitle>
+
+	<Gallery2>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="220" height="162"></img><GalleryItem>Lumii (iOS)</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><GalleryItem>Experience Map - Robarts Library</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><GalleryItem>UX Research Poster - Mental Health</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6979124/web_page_psd_mockup_4x.png" alt="" width="220" height="162"></img><GalleryItem>Website Design - Second Chance</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="220" height="162"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
+
+	</Gallery2>
+
+	</PageGrid2>
+
+
+
+
+	<PageGrid3>
+
+	<PortfolioTitle>
+	ABOUT
+	</PortfolioTitle>
+	
+	<HeaderSubtitle2>
+
+			<strong>Jude Park</strong> is a User Experience Designer + Researcher 
+			who promotes social causes using technology.
+			<br/>
+			<br/>
+			Educated with a master's in User Experience Design from University of Toronto,
+			and bachelor's in Anthropology, History and Linguistics from Trent,
+			Jude is currently available for work.
+			<br/>
+			<br/>
+			Always asking what is fair in the world of design, 
+			Jude is inventing a new approach 
+			to designing user experience.
+			<br/>
+			<br/>
+			<FlipButton link="/fairdesign" content="More about how I work ⯈" hoverContent="More about how I work ⯈"></FlipButton>
+			<br/>
+			<br/>
+			Other
+			<br/>
+			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
+			<br/>
+	</HeaderSubtitle2>	
+
+	</PageGrid3>
+
+  </React.Fragment>
+)
+
+
+/* 
+
+To add later when I finish them:
+
+			<li>
+				<IconYoutube>
+				<a href="https://medium.com/@judepark" target="_blank">
+					<FaYoutube size={iconSize}/>
+				</a>
+				</IconYoutube>
+			</li>
+			<li>
+				<IconVimeo>
+				<a href="https://vimeo.com/judepark/" target="_blank">
+					<FaVimeo size={iconSize}/>
+				</a>
+				</IconVimeo>
+			</li>
+			<li>
+				<IconMedium>
+				<a href="https://medium.com/@judepark" target="_blank">
+					<FaMedium size={iconSize}/>
+				</a>
+				</IconMedium>
+			</li>
+
+
+	<PortfolioTitle>
+	DESIGN REEL
+	</PortfolioTitle>
+
+	<PortfolioTitle>
+	ARTICLES
+	</PortfolioTitle>
+
+			Industry Curriculum Vitae  ⭳
+
+			<br/>
+			Academic Curriculum Vitae ⭳
+
+			<br/>
+			<br/>
+			<FlipButton link="mailto:jude@judepark.com" content="Hire Me" hoverContent="I'm Available"></FlipButton>
+		</HeaderSubtitle>
+
+
+		
+	<PageGrid3>
+
+	<PortfolioTitle>
+	DESIGN REEL
+	</PortfolioTitle>
+
+	<Video
+        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        videoTitle="Official Music Video on YouTube"
+      />
+
+	</PageGrid3>
+
+
+
+	<PortfolioTitle style={{marginTop:"50px"}}>
+	ANIMATION x MOTION
+	</PortfolioTitle>
+
+	<Gallery>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6906366-One-Poster-Mockup"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6906366/one_poster_mockup_4x.png" alt="" width="210" height="155"></img><GalleryItem>Nightstand</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>Book of Revelations</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>JUDE Journal</GalleryItem></a>
+
+	</Gallery>
+
+
+
+
+	*****THE FOLLOWING IS THE FULL VERSION OF MY WEBSITE THAT I WILL RE-INSTATE AFTER I GET A JOB.****
+
+
+		  <LoadingScreen>
+	  ⠀
+	  </LoadingScreen>
+	  
+	  <PageGrid>
+		<HeaderTitle>
+			<strong>Jude Park</strong>
+			<br/>
+			User Experience Designer + Researcher
+		</HeaderTitle>
+
+		<Line>
+		<hr></hr>
+		</Line>
+		
+		<SiteSocial>
+			<li>
+				<IconMail>
+				<a href="mail:jude@judepark.com" target="_blank">
+					<FaEnvelope size={iconSize}/>
+				</a>
+				</IconMail>
+			</li>
+			<li>
+				<IconLinkedin>
+				<a href="https://www.linkedin.com/in/judepark/" target="_blank">
+					<FaLinkedin size={iconSize}/>
+				</a>
+				</IconLinkedin>
+			</li>
+			<li>
+				<IconInstagram>
+				<a href="https://www.instagram.com/judepark/" target="_blank">
+					<FaInstagram size={iconSize}/>
+				</a>
+				</IconInstagram>
+			</li>
+			<li>
+				<IconTwitter>
+				<a href="https://twitter.com/judepark/" target="_blank">
+					<FaTwitter size={iconSize}/>
+				</a>
+				</IconTwitter>
+			</li>
+			<li>
+				<IconDribble>
+				<a href="https://dribbble.com/judepark/" target="_blank">
+					<FaDribbble size={iconSize}/>
+				</a>
+				</IconDribble>
+			</li>
+			<li>
+				<IconGithub>
+				<a href="https://github.com/judepark/" target="_blank">
+					<FaGithub size={iconSize}/>
+				</a>
+				</IconGithub>
+			</li>
+		</SiteSocial>
+		
+
+		<HeaderSubtitle>
+			<br/>
+			Welcome to my site!
+			<br/>
+			These are my works from over the years.
+			<br/>
+			Feel free to explore the collection.
+			<br/>
+		</HeaderSubtitle>
+	</PageGrid>
+
+	<PageGrid2>
+
+	<PortfolioTitle>
 	ARTICLES
 	</PortfolioTitle>
 
@@ -132,7 +364,7 @@ const IndexPage = ({data}) => (
 	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Fair Design Measurement</GalleryItem></a>
 	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Lumii (iOS)</GalleryItem></a>
 	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>EpiSense (Plugin)</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
+	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="140" height="103"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
 
 	</Gallery>
 
@@ -219,85 +451,7 @@ NON-PROFIT
 
 </PageGrid3>
 
-  </React.Fragment>
-)
 
-
-/* 
-
-To add later when I finish them:
-
-			<li>
-				<IconYoutube>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaYoutube size={iconSize}/>
-				</a>
-				</IconYoutube>
-			</li>
-			<li>
-				<IconVimeo>
-				<a href="https://vimeo.com/judepark/" target="_blank">
-					<FaVimeo size={iconSize}/>
-				</a>
-				</IconVimeo>
-			</li>
-			<li>
-				<IconMedium>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaMedium size={iconSize}/>
-				</a>
-				</IconMedium>
-			</li>
-
-
-	<PortfolioTitle>
-	DESIGN REEL
-	</PortfolioTitle>
-
-	<PortfolioTitle>
-	ARTICLES
-	</PortfolioTitle>
-
-			Industry Curriculum Vitae  ⭳
-
-			<br/>
-			Academic Curriculum Vitae ⭳
-
-			<br/>
-			<br/>
-			<FlipButton link="mailto:jude@judepark.com" content="Hire Me" hoverContent="I'm Available"></FlipButton>
-		</HeaderSubtitle>
-
-
-		
-	<PageGrid3>
-
-	<PortfolioTitle>
-	DESIGN REEL
-	</PortfolioTitle>
-
-	<Video
-        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        videoTitle="Official Music Video on YouTube"
-      />
-
-	</PageGrid3>
-
-
-
-	<PortfolioTitle style={{marginTop:"50px"}}>
-	ANIMATION x MOTION
-	</PortfolioTitle>
-
-	<Gallery>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6906366-One-Poster-Mockup"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6906366/one_poster_mockup_4x.png" alt="" width="210" height="155"></img><GalleryItem>Nightstand</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>Book of Revelations</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>JUDE Journal</GalleryItem></a>
-
-	</Gallery>
 
 */
 

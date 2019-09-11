@@ -11,12 +11,12 @@ const ComicsPage = ({data}) => (
 			
 			<HeaderTitle>
 			<br/><br/><br/><br/><br/><br/>
-			<strong>Comic</strong>: Hey Jude~
+			<strong>Comic</strong>: A webcomic series about my daily ponders
 			</HeaderTitle>
 			
 			<HeaderSubtitle>			
 			<br/>
-			My webcomic series about my daily ponders. View the rest at <a href="https://heyjudecomic.com/ ">www.heyjudecomic.com</a>
+			Hey Jude~ Comic. View the rest at <a href="https://heyjudecomic.com/ ">www.heyjudecomic.com</a>
  
 			<br/>
 			</HeaderSubtitle>		
