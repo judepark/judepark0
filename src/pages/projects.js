@@ -7,19 +7,19 @@ import ArticleCard from '../components/ArticleCard';
 import {fadeInDown} from './../animations/m-styled-animations'
 import {MoveUp} from './../animations/m-styled-animations'
 
-const WritingsPage = ({data}) => (
+const ProjectsPage = ({data}) => (
   <React.Fragment>
 	<PageGrid>
 			
 			<HeaderTitle>
 			<br/><br/><br/><br/>
-			<strong>Writing</strong>
+			<strong>Projects</strong>
 			</HeaderTitle>
 			
 			<HeaderSubtitle>
-			An archive of all my writing.
+			An archive of all my projects.
 			<br/>
-			For specific blog posts about Fair Design, visit <a href="https://www.fairdesign.ca/ ">www.fairdesign.ca</a>
+			I cherish the moments I was granted to work on these projects.
 			<br/>
 			</HeaderSubtitle>		
 	</PageGrid>
@@ -28,18 +28,57 @@ const WritingsPage = ({data}) => (
 
 	<PageGrid2>
 
-<PortfolioTitle>
-ARCHIVE
-</PortfolioTitle>
+
+	<PortfolioTitle>
+	APPLICATIONS
+	</PortfolioTitle>
+
+	<Shelf>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="220" height="162"></img><Item>Lumii (iOS)</Item></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="220" height="162"></img><Item>Bookies (iOS)</Item></a>
+
+	</Shelf>
+
+	<PortfolioTitle2>
+	RESEARCH x DESIGN
+	</PortfolioTitle2>
+
+	<Shelf>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><Item>Experience Map</Item></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><Item>UX Research</Item></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6979124/web_page_psd_mockup_4x.png" alt="" width="220" height="162"></img><Item>Website Design</Item></a>
+
+	</Shelf>
+
+	<PortfolioTitle2>
+	PUBLICATIONS
+	</PortfolioTitle2>
+
+	<Shelf>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="220" height="162"></img><Item>Book of Revelations</Item></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="220" height="162"></img><Item>JUDE Journal</Item></a>
+
+	</Shelf>
+
+	<PortfolioTitle2>
+	DIGITAL CONTENTS
+	</PortfolioTitle2>
+
+	<Shelf>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6906366-One-Poster-Mockup"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6906366/one_poster_mockup_4x.png" alt="" width="220" height="162"></img><Item>Nightstand Radio</Item></a>
+
+	</Shelf>
 
 
-
-		{data.allMarkdownRemark.edges.map(({node}) => (
-			<ArticleCard data={node} key={node.key}></ArticleCard>
-		))}
-
-	
-</PageGrid2>
+	</PageGrid2>
 
   </React.Fragment>
 )
@@ -152,10 +191,25 @@ const PortfolioTitle = styled.div`
 	}
 `;
 
+const PortfolioTitle2 = styled.div`
+	margin-bottom: 30px;
+	margin-top: 0px;
+	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	line-height: 1.35;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	animation: ${fadeInDown} 1s;
+	@media(maxs-width: 425px) {
+	}
+`;
+
 const Shelf = styled.div`
 display: grid;
-grid-template-columns: repeat(5, 0fr);
-grid-template-rows: repeat(5, 0fr);
+grid-template-columns: repeat(4, 0fr);
+grid-template-rows: repeat(4, 0fr);
 margin-bottom: 20px;
 grid-gap: 20px;
 animation: ${fadeInDown} 1s;
@@ -225,32 +279,4 @@ const ArticleCardGrid = styled.div`
 
 
 
-export default WritingsPage
-
-
-export const query = graphql`
-query AllWritingQuery {
-	allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
-		edges {
-		  node {
-			fields {
-				slug
-			}
-			frontmatter {
-			  title
-			  themeColor
-			  accentColor
-			  date(formatString: "MMM D, YYYY")
-			  image {
-				childImageSharp{
-				  fluid(maxWidth: 900) {
-					...GatsbyImageSharpFluid
-				  }
-				}
-			  }
-			}
-		  }
-		}
-	  }
-  }
-`
+export default ProjectsPage

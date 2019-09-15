@@ -10,25 +10,21 @@ const MyRecommendationsPage = ({data}) => (
 	<PageGrid>
 			
 			<HeaderTitle>
-			<br/><br/><br/><br/><br/><br/>
-			<strong>My Recommendations</strong>: Tools, Books, Music, Videos, whatnot.
+			<br/><br/><br/><br/>
+			<strong>My Recommendations</strong>
 			</HeaderTitle>
 			
-			<HeaderSubtitle>			
+			<HeaderSubtitle>
+			Tools, Books, Music, Videos, whatnot.
 			<br/>
 			A curated list of things that I recommend.
-			<br/>
 			</HeaderSubtitle>		
 
+			</PageGrid>
 
+	<br/>
 
-
-
-
-
-
-
-
+<PageGrid>
 <PortfolioTitle>
 TOOLS I USE
 </PortfolioTitle>

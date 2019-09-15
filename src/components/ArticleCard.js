@@ -36,9 +36,8 @@ list-style-type: circle;
 margin-left: 0px;
 color: ${props => props.accent};
 	&:hover {
-		list-style-type:disc;
+		list-style-type: disc;
 		color: ${props => props.accent};
-		background-color: ${props => props.theme};
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
 	}
@@ -67,11 +66,15 @@ font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
 color: hsla(0, 0%, 0%, 0.35);
 line-height: 1.35;
 letter-spacing: 0.5px;
-margin-bottom: -5px;
+margin-bottom: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
 font-weight: normal;
+margin-right: 30px;
 color: hsla(0, 0%, 0%, 0.35);
 	transition: opacity 0.3s;
 	:hover {
+		color: hsla(0, 0%, 0%, 0.8);
 	}
 `;
 
@@ -80,7 +83,8 @@ const Date = styled.div`
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.35);
-	margin-top: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;

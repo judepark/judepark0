@@ -14,8 +14,8 @@ const FairDesignPage = ({data}) => (
 	<PageGrid>
 			
 			<HeaderTitle>
-			<br/><br/><br/><br/><br/><br/>
-			<strong>Fair Design</strong>: My Design Methodology
+			<br/><br/><br/><br/>
+			<strong>Fair Design</strong>
 			</HeaderTitle>
 			
 			<HeaderSubtitle>			
@@ -33,7 +33,6 @@ const FairDesignPage = ({data}) => (
 			HOW I WORK
 			</PortfolioTitle>
 			<HeaderSubtitle>
-			<br/>
 			As a designer I consider the privileges of the target user group in the design process.
 			<br/>
 			<br/>
@@ -63,7 +62,6 @@ const FairDesignPage = ({data}) => (
 
 			<HeaderSubtitle2>
 			<div style={{color: "hsla(0, 0%, 0%, 0.8)", fontSize:"70%"}}>
-			<br/>
 			I as a Designer, will include the experiences of marginalized groups into my design process.
 			<br/>
 			<br/>

@@ -39,7 +39,7 @@ const IndexPage = ({data}) => (
 		<HeaderTitle>
 			<strong>Jude Park</strong>
 			<br/>
-			User Experience Designer + Researcher
+			User Experience Designer / Privilege Researcher
 		</HeaderTitle>
 
 		<Line>
@@ -106,7 +106,7 @@ const IndexPage = ({data}) => (
 	<PageGrid2>
 
 	<PortfolioTitle>
-	CASE STUDY
+	ARTICLES
 	</PortfolioTitle>
 
 		<ArticleCardGrid>
@@ -122,7 +122,7 @@ const IndexPage = ({data}) => (
 	<PageGrid2>
 
 	<PortfolioTitle>
-	DRIBBLE
+	APPLICATIONS
 	</PortfolioTitle>
 
 	<Gallery2>
@@ -131,13 +131,15 @@ const IndexPage = ({data}) => (
 
 	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><GalleryItem>Experience Map - Robarts Library</GalleryItem></a>
 
-	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><GalleryItem>UX Research Poster - Mental Health</GalleryItem></a>
+	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="220" height="162"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
+
+	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><GalleryItem>UX Research - Mental Health Services</GalleryItem></a>
 
 	<a class="grid-img" href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6979124/web_page_psd_mockup_4x.png" alt="" width="220" height="162"></img><GalleryItem>Website Design - Second Chance</GalleryItem></a>
 
-	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="220" height="162"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
 
 	</Gallery2>
+
 
 	</PageGrid2>
 
@@ -171,11 +173,12 @@ const IndexPage = ({data}) => (
 			<br/>
 			Other
 			<br/>
-			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
+			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/projects" content="Projects" hoverContent="Projects"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
 			<br/>
 	</HeaderSubtitle2>	
 
 	</PageGrid3>
+
 
   </React.Fragment>
 )
@@ -627,7 +630,7 @@ const HeaderTitle = styled.div`
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 50%;
+	width: 52.5%;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -669,6 +672,21 @@ const HeaderSubtitle2 = styled.div`
 const PortfolioTitle = styled.div`
 	margin-bottom: 30px;
 	margin-top: 170px;
+	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	line-height: 1.35;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	animation: ${fadeInDown} 1s;
+	@media(maxs-width: 425px) {
+	}
+`;
+
+const PortfolioTitle2 = styled.div`
+	margin-bottom: 30px;
+	margin-top: 0px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
