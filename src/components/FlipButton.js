@@ -40,7 +40,7 @@ const FlipButton = styled.a`
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (20 - 14) * (100vw - 400px) / (1300 - 400) );
 	line-height: 1.35;
-	color: hsla(0, 0%, 0%, 0.8);
+	color: #f8f7f3;
 	transition: all 0.3s;
 	font-weight: normal;
 	&:hover {

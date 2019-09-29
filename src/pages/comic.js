@@ -23,6 +23,10 @@ const ComicsPage = ({data}) => (
 	</PageGrid>
 
 	<br/>
+	
+	<Line>
+	<hr></hr>
+	</Line>
 
 	<PageGrid2>
 
@@ -85,6 +89,7 @@ const ComicsPage = ({data}) => (
 const PageGrid = styled.div`
 	display: grid;
 	margin-bottom: -100px;
+	max-width: 50%;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -93,7 +98,7 @@ const PageGrid = styled.div`
 
 const PageGrid2 = styled.div`
 	display: inline-grid;
-	max-width: 100%;
+	max-width: 50%;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -191,8 +196,8 @@ const PortfolioTitle = styled.div`
 
 const BookShelf = styled.div`
 display: grid;
-grid-template-columns: repeat(4, 0fr);
-grid-template-rows: repeat(4, 0fr);
+grid-template-columns: repeat(2, 0fr);
+grid-template-rows: repeat(2, 0fr);
 margin-bottom: 20px;
 grid-gap: 0px;
 animation: ${fadeInDown} 1s;
@@ -248,7 +253,15 @@ color: hsla(0, 0%, 0%, 0.35);
 		}
 `;
 
-
+const Line = styled.p`
+	animation: ${fadeInDown} 1s;
+	marginBottom: 1em;
+	width: 48%;
+	margin-left: 25px;
+	@media(max-width: 820px) {
+		width: 100%;
+	}
+`;
 
 
 export default ComicsPage

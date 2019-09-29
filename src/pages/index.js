@@ -6,6 +6,7 @@ import ArticleCard from '../components/ArticleCard';
 import {fadeInDown} from './../animations/m-styled-animations'
 import {MoveUp} from './../animations/m-styled-animations'
 import {LoadScreen} from './../animations/m-styled-animations'
+import {Comic} from './../animations/m-styled-animations'
 
 
 import {FaEnvelope} from 'react-icons/fa'
@@ -35,11 +36,13 @@ const IndexPage = ({data}) => (
 	  ⠀
 	  </LoadingScreen>
 	  
+		<br/><br/><br/><br/><br/>
+
 	  <PageGrid>
 		<HeaderTitle>
-			<strong>Jude Park</strong>
+			<span style={{fontWeight: "800"}}>Jude Park</span>
 			<br/>
-			User Experience Designer / Privilege Researcher
+			UX Designer
 		</HeaderTitle>
 
 		<Line>
@@ -94,7 +97,7 @@ const IndexPage = ({data}) => (
 
 		<HeaderSubtitle>
 			<br/>
-			Welcome to my site!
+			Welcome!
 			<br/>
 			These are my works from over the years.
 			<br/>
@@ -103,10 +106,17 @@ const IndexPage = ({data}) => (
 		</HeaderSubtitle>
 	</PageGrid>
 
+
+
+	<br/><br/><br/><br/><br/>
+
+
+
+	
 	<PageGrid2>
 
 	<PortfolioTitle>
-	ARTICLES
+	BLOG
 	</PortfolioTitle>
 
 		<ArticleCardGrid>
@@ -122,7 +132,7 @@ const IndexPage = ({data}) => (
 	<PageGrid2>
 
 	<PortfolioTitle>
-	APPLICATIONS
+	PROJECTS
 	</PortfolioTitle>
 
 	<Gallery2>
@@ -143,32 +153,54 @@ const IndexPage = ({data}) => (
 
 	</PageGrid2>
 
-
-
-
+	<br/><br/><br/><br/><br/>
+				
+	<PageGride3Layout>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	</PageGride3Layout>
+	
 	<PageGrid3>
 
-	<PortfolioTitle>
+	<PortfolioTitle2>
 	ABOUT
-	</PortfolioTitle>
+	</PortfolioTitle2>
 	
 	<HeaderSubtitle2>
 
-			<strong>Jude Park</strong> is a User Experience Designer + Researcher 
-			who promotes social causes using technology.
+			Hi, it's nice to virtually meet you.
+			<br/>
+			⠀⠀My name is Jude Park.
+			I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
+			<br/>
+			⠀⠀I studied History, Anthropology, Linguistics, Library Science, Information Systems, and User Experience. 
+			I like to research, write, dance and swim. I love animation & motion design and coding.
+			<br/>
+			⠀⠀I'm always working on a project. Let's connect online.
 			<br/>
 			<br/>
-			Educated with a master's in User Experience Design from University of Toronto,
-			and bachelor's in Anthropology, History and Linguistics from Trent,
-			Jude is currently available for work.
+			<a href="mailto:jude@judepark.com">jude@judepark.com</a> / <a href="https://twitter.com/judepark">@judepark</a>
+
+
 			<br/>
 			<br/>
-			Always asking what is fair in the world of design, 
-			Jude is inventing a new approach 
-			to designing user experience.
-			<br/>
-			<br/>
-			<FlipButton link="/fairdesign" content="More about how I work ⯈" hoverContent="More about how I work ⯈"></FlipButton>
+			<FlipButton link="/fairdesign" content="About how I work ⯈" hoverContent="About how I work ⯈"></FlipButton>
 			<br/>
 			<br/>
 			Other
@@ -179,6 +211,99 @@ const IndexPage = ({data}) => (
 
 	</PageGrid3>
 
+
+	<PageGrid3b>
+
+	
+	<PortfolioTitle3>
+	COMIC OF THE DAY
+	</PortfolioTitle3>
+	
+	<ComicContainer>
+	<a class="grid-img" href="https://www.goodreads.com/book/show/20830437-css-secrets">
+	<BookShelf>
+	<a class="grid-img" href="https://www.instagram.com/p/B0FI7g4Bi4F/">
+	<img src="https://instagram.fybz2-2.fna.fbcdn.net/vp/804c069f4ecff216b049b1a53a42172a/5E127F90/t51.2885-15/e35/s1080x1080/67686064_894328677595699_3675276628710481233_n.jpg?_nc_ht=instagram.fybz2-2.fna.fbcdn.net" alt="" width="150" ></img>
+	</a>
+
+	<BookItem>
+	Hey Jude~ Comic
+	<br/>
+	<small>
+		Instagram <IconInstagram style={{display: "inline"}}><FaInstagram size={15}/></IconInstagram>
+	</small>
+	</BookItem>
+
+
+	</BookShelf>
+	</a>
+	</ComicContainer>
+
+
+	<PageGrid4>
+
+	<PageGrid5>
+
+	<PortfolioTitle3>
+	CURRENTLY READING
+	</PortfolioTitle3>
+
+
+	<BookShelfContainer>
+	<a class="grid-img" href="https://www.goodreads.com/en/book/show/24611786">
+	<BookShelf>
+
+	<a class="grid-img" href="https://www.goodreads.com/en/book/show/24611786"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445790468l/24611786.jpg" alt="" width="108"></img></a>
+
+	<BookItem>
+	The Introvert Entrepreneur
+	<br/>
+	<small>Beth Buelow</small>
+	</BookItem>
+
+	</BookShelf>
+	</a>
+	</BookShelfContainer>
+
+
+	</PageGrid5>
+
+	
+
+	<PageGrid5>
+
+	<PortfolioTitle3>
+	CURRENTLY WRITING
+	</PortfolioTitle3>
+
+
+	<BookShelfContainer>
+	<a class="grid-img" href="">
+	<BookShelf>
+
+	<a class="grid-img" href=""><img src="https://liljas-library.com/img/other/no_book_cover_lg.jpg" alt="" width="108"></img></a>
+
+	<BookItem>
+	Healing from Your Family - The Abuse in Loving
+	<br/>
+	<small></small>
+	</BookItem>
+
+	</BookShelf>
+	</a>
+	</BookShelfContainer>
+
+
+	</PageGrid5>
+
+	<br/><br/><br/>
+
+	
+
+	</PageGrid4>
+
+
+	</PageGrid3b>
 
   </React.Fragment>
 )
@@ -455,6 +580,7 @@ NON-PROFIT
 </PageGrid3>
 
 
+I draw a comic a day (mostly), have my own podcast show, make animation shorts, write ebooks, create protest art. See all my projects on Dribble.
 
 */
 
@@ -585,7 +711,7 @@ const PageGrid2 = styled.div`
 	& > * {
 		grid-column: center;
 	}
-	@media(max-width: 1000px) {
+	@media(max-width: 1055px) {
 		display: grid;
 		max-width: 100%;
 	}
@@ -593,35 +719,76 @@ const PageGrid2 = styled.div`
 
 const PageGrid3 = styled.div`
 	display: inline-grid;
-	margin-bottom:-120px;
+	position: relative;
+	margin-bottom: -160px;
+	padding-right: 60px;
 	max-width: 50%;
+	overflow-x: hidden;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
 	}
+	@media(max-width: 1055px) {
+		padding-top:30px;
+		margin-top: 30px;
+		padding-bottom:30px;
+		max-width: 100%;
+		background-color: hsla(0, 0%, 0%, 0.8);
+	}
+`;
+
+const PageGrid3b = styled.div`
+	display: inline-grid;
+	position: relative;
+	margin-bottom: -160px;
+	padding-right: 0px;
+	max-width: 50%;
+	overflow-x: hidden;
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
+	& > * {
+		grid-column: center;
+	}
+	@media(max-width: 1055px) {
+		padding-top:30px;
+		margin-top: 160px;
+		padding-bottom:30px;
+		max-width: 100%;
+		background-color: hsla(0, 0%, 0%, 0.8);
+	}
+`;
+
+const PageGride3Layout = styled.div`
+background-color: hsla(0, 0%, 0%, 0.8);
+margin-left: -200px;
+margin-right: -200px;
+margin-bottom:-540px;
+position: relative;
+z-index: -4;
+@media(max-width: 1055px) {
+	visibility: hidden;
+}
 `;
 
 const PageGrid4 = styled.div`
-	display: inline-grid;
-	margin-bottom:-180px;
-	max-width: 50%;
-	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
-	& > * {
-		grid-column: center;
-	}
+display: flex;
 `;
 
+const PageGrid5 = styled.div`
+flex: 50%;
+`;
+
+
 const HeaderTitle = styled.div`
-	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 40px + (45 - 40) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.80);
 	line-height: 1.35;
-	font-weight: normal;
+	font-weight: 700;
 	margin-bottom: 20px;
 	max-width: 800px;
-	margin-top: 190px;
-	letter-spacing:0.2px;
+	margin-top: 0px;
+	letter-spacing: 0.2px;
 	@media(max-width: 720px) {
 		
 	}
@@ -630,7 +797,7 @@ const HeaderTitle = styled.div`
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 52.5%;
+	width: 35%;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -639,13 +806,13 @@ const Line = styled.p`
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
 	max-width: 600px;
-	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.35);
-	letter-spacing: -.02em;
-	line-height: 1.35;
-	font-weight: normal;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 700;
 	animation: ${fadeInDown} 1s;
 	@media(max-width: 425px) {
 		
@@ -656,14 +823,22 @@ const HeaderSubtitle = styled.div`
 const HeaderSubtitle2 = styled.div`
 	margin-bottom: 0px;
 	max-width: 600px;
-	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (20 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
-	letter-spacing: -.02em;
-	line-height: 1.35;
-	font-weight: normal;
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: #f8f7f3;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 400;
 	animation: ${fadeInDown} 1s;
+	a {
+		all: inherit;
+		display: inline;
+		&:hover {
+			cursor: pointer;
+			}
+		}
+	}
 	@media(max-width: 425px) {
 		
 	}
@@ -671,10 +846,10 @@ const HeaderSubtitle2 = styled.div`
 
 const PortfolioTitle = styled.div`
 	margin-bottom: 30px;
-	margin-top: 170px;
+	margin-top: 0px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.35);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
@@ -689,8 +864,23 @@ const PortfolioTitle2 = styled.div`
 	margin-top: 0px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: #f8f7f3;
+	line-height: 1.35;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	animation: ${fadeInDown} 1s;
+	@media(maxs-width: 425px) {
+	}
+`;
+
+const PortfolioTitle3 = styled.div`
+	margin-bottom: 30px;
+	margin-top: 0px;
+	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: #f8f7f3;
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -743,8 +933,8 @@ margin-bottom: 20px;
 grid-gap: 20px;
 animation: ${fadeInDown} 1s;
 a {
-font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
 color: hsla(0, 0%, 0%, 0.35);
 line-height: 1.35;
@@ -770,6 +960,78 @@ background-color: hsla(0, 0%, 0%, 0.80);
 animation: ${LoadScreen} 1s;
 animation-fill-mode: forwards;  
 margin-bottom:-30px
+`;
+
+
+const BookShelfContainer = styled.div`
+a {
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	color: #f8f7f3;
+	line-height: 1.35;
+	letter-spacing: -.02em;
+	margin-bottom: 0px;
+	font-weight: 400;
+		&:hover {
+			
+			}
+		}
+&:hover {
+	animation: ${MoveUp} 0.3s;
+	animation-fill-mode: forwards;
+	color: #f8f7f3;
+	}
+`;
+
+const ComicContainer = styled.div`
+a {
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	color: #f8f7f3;
+	line-height: 1.35;
+	letter-spacing: -.02em;
+	margin-bottom: 0px;
+	font-weight: 400;
+	animation: ${Comic} 7s infinite;
+		&:hover {
+			
+			}
+		}
+&:hover {
+	animation: ${MoveUp} 0.3s;
+	animation-fill-mode: forwards;
+	color: #f8f7f3;
+	}
+`;
+
+
+const BookShelf = styled.div`
+display: grid;
+grid-template-columns: repeat(2, 0fr);
+grid-template-rows: repeat(2, 0fr);
+margin-bottom: 20px;
+grid-gap: 0px 20px;
+animation: ${fadeInDown} 1s;
+&:hover {
+
+	}
+}
+img {
+
+	@media(max-width: 700px) {
+		width: 100px;
+	}
+
+}
+`;
+
+const BookItem = styled.div`
+margin-bottom: 0px;
+margin-top: 0px;
+width: 100px;
+margin-right: 20px;
 `;
 
 export default IndexPage

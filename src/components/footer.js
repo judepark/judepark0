@@ -8,7 +8,7 @@ const Footer = () => {
 		<div>
       <br />
       <footer>
-			 © {new Date().getFullYear()} JUDE PARK <div style={{fontSize:"70%"}}>Designed with 💛 in Toronto</div>
+			 © {new Date().getFullYear()} JUDE PARK <div style={{fontSize:"70%"}}>Built with GatsbyJS, Netlify<br/>Designed by yours truly 💛</div>
 			 <br />
 				{` `}
         </footer>

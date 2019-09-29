@@ -73,3 +73,32 @@ export const LoadScreen = keyframes`
 		opacity: 0;
 	}
 `;
+
+
+// Cool Animations
+
+export const Comic = keyframes`
+
+{
+	0%,10% {
+		transform:translateY(0) rotate(0);
+		transform-origin:50% 50%
+	}
+	1.5% {
+		transform:translateY(-10px) rotate(6deg)
+	}
+	3.0% {
+		transform:translateY(8px) rotate(-6deg)
+	}
+	4.5% {
+		transform:translateY(-8px) rotate(3.6deg)
+	} 
+	6.0% {
+		transform:translateY(4px) rotate(-2.4deg)
+	}
+	7.5% {
+		transform:translateY(-3px) rotate(1.2deg)
+	}
+}
+
+`;
