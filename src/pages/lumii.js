@@ -26,11 +26,11 @@ const LumiiPage = ({data}) => (
 			<HeaderColumn>
 
 			<HeaderDescription>
-			As part of the RBC's innovation incubation program, we were tasked to come up with
-			a disruptive solution that will help hire, onboard and maintain diverse talents.
-			The end result was a concept-to-implementation chatbot that 
-			worked to close the gap in unemployment, highlighting
-			core skils in the future of work.
+			RBC's innovation labs tasked us to come up with
+			a disruptive solution that will hire, onboard and retain diverse talents.
+			The end result was a concept-to-implementation chatbot that
+			closed the gap in unemployment, highlighting
+			21st century skils for the future of work.
 
 
 			<br/>
@@ -51,7 +51,7 @@ const LumiiPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			www.judepark.com
+			judepark.com
 			<br/>
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Brand</span>
@@ -87,12 +87,24 @@ const LumiiPage = ({data}) => (
 	<br/>
 	<br/>
 	</PageGride3Layout>
-	
+
+	<div class="scroll--helper">
+  	<div class="container">
+  	</div>
+	</div>
+
+	<div class="mouse">
+	<div class="wheel"></div>
+	</div>
+
+
 	<PageGrid3>
 
-	
+
 
 	</PageGrid3>
+
+
 
 
   </React.Fragment>

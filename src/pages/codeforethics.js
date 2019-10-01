@@ -24,8 +24,11 @@ const CodeForEthicsPage = ({data}) => (
 			<HeaderColumn>
 
 			<HeaderDescription>
-			An open-source, collaborative project led by me to archive all code 
-			that leads to ethical decision making in artificial intelligence.
+			Open-source project that aims to to archive all codes 
+            that leads to ethical decision making in artificial intelligence. 
+			The goal is to have an evolving database to create AI that
+            have the capabilities to be an ethical decision maker.
+
 			<br/>
 			</HeaderDescription>	
 
@@ -44,7 +47,8 @@ const CodeForEthicsPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			www.codeforethics.com
+			codeforethics.com
+			<br/>
 			<br/><br/><br/><br/>
 
 			</HeaderDescription2>
@@ -75,6 +79,16 @@ const CodeForEthicsPage = ({data}) => (
 	<br/>
 	<br/>
 	</PageGride3Layout>
+
+	<div class="scroll--helper">
+  	<div class="container">
+  	</div>
+	</div>
+
+	<div class="mouse">
+	<div class="wheel"></div>
+	</div>
+
 	
 	<PageGrid3>
 
@@ -344,7 +358,6 @@ const Line = styled.p`
 		width: 100%;
 	}
 `;
-
 
 
 export default CodeForEthicsPage

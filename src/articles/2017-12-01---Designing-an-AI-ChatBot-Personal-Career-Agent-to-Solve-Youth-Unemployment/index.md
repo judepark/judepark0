@@ -26,11 +26,11 @@ This was the answer to my question "So am I allowed to care about the minority r
 <div class="photo-grid-container">
 <div class="photo-grid">
 
-<video width="100%" controls loop>
+<video width="100%" autoPlay loop muted>
 <source src="/ezgif-2-9490e5b96e93.mp4" type="video/mp4">
 </video>
 
-<video width="100%" controls loop>
+<video width="100%" autoPlay loop muted>
 <source src="/lumii-interaction2.mp4" type="video/mp4">
 </video>
 

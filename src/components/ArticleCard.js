@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 
 import {MoveUp} from './../animations/m-styled-animations'
-
+import {fadeInDown} from './../animations/m-styled-animations'
 
 const ArticleCard = (props) => {
   return (
@@ -59,18 +59,20 @@ const ArticleCardContainer = styled.div`
 	}
 `;
 
+
 const Title = styled.div`
-font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
 color: hsla(0, 0%, 0%, 0.35);
-line-height: 1.35;
-letter-spacing: 0.5px;
+line-height: 1.5;
+letter-spacing: 0.2px;
 margin-bottom: 0px;
 margin-top: 0px;
-font-weight: normal;
+font-weight: 700;
 margin-right: 20px;
 color: hsla(0, 0%, 0%, 0.35);
+animation: ${fadeInDown} 1s;
 	transition: opacity 0.3s;
 	:hover {
 		color: hsla(0, 0%, 0%, 0.8);
@@ -80,7 +82,7 @@ color: hsla(0, 0%, 0%, 0.35);
 const Date = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.35);
 	margin-top: 0px;
 	margin-bottom: 0px;

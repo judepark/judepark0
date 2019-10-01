@@ -24,13 +24,11 @@ const LooPage = ({data}) => (
 			<HeaderColumn>
 
 			<HeaderDescription>
-			Loo is my entreprenurial pursuit to answer the question 
-			"Is there a washroom nearby?" I suffer from
+			I suffer from
 			a chronic medical condition that causes IBS, and I saw 
-			a need for others like me who need accessible, clean,
-			public toilets. Crowd-sourced, peer-reviewed, real-time updates 
-			to help you find the nearest toilets for all your 
-			accessibility needs.
+			a need for others like me who often need accessible, clean,
+			public toilets. Loo helps you find the nearest accessible 
+			toilets in your city through crowd-sourced reviews.
 
 			<br/>
 			</HeaderDescription>	
@@ -50,7 +48,7 @@ const LooPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			www.looapp.com
+			looapp.ca
 			<br/>
 			<br/><br/><br/><br/>
 
@@ -82,6 +80,16 @@ const LooPage = ({data}) => (
 	<br/>
 	<br/>
 	</PageGride3Layout>
+
+	<div class="scroll--helper">
+  	<div class="container">
+  	</div>
+	</div>
+
+	<div class="mouse">
+	<div class="wheel"></div>
+	</div>
+
 	
 	<PageGrid3>
 

@@ -102,3 +102,20 @@ export const Comic = keyframes`
 }
 
 `;
+
+
+
+export const MovingInstaButton = keyframes`
+{
+    35% {
+      left: 60%;
+      opacity:0.1;
+      transform:translateY(-3px) rotate(3deg)
+	}
+	95% {
+		left: 100%;
+		transform:translateY(-0.1px) rotate(0.1deg)
+	  }
+    
+  }
+`;

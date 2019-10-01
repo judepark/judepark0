@@ -7,6 +7,7 @@ import {fadeInDown} from './../animations/m-styled-animations'
 import {MoveUp} from './../animations/m-styled-animations'
 import {LoadScreen} from './../animations/m-styled-animations'
 import {Comic} from './../animations/m-styled-animations'
+import {MovingInstaButton} from './../animations/m-styled-animations'
 
 
 import {FaEnvelope} from 'react-icons/fa'
@@ -15,6 +16,7 @@ import {FaTwitter} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {FaDribbble} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
+import {FaFacebook} from 'react-icons/fa'
 import {FaMedium} from 'react-icons/fa'
 import {FaVimeo} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
@@ -189,25 +191,18 @@ const IndexPage = ({data}) => (
 			⠀⠀My name is Jude Park.
 			I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
 			<br/>
-			⠀⠀I studied History, Anthropology, Linguistics, Library Science, Information Systems, and User Experience. 
-			I like to research, write, dance and swim. I love animation & motion design and coding.
+			⠀⠀I studied History, Anthropology, Linguistics, Library Science, Information Systems, and User Experience.
+			<br/>
+			⠀⠀I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
+			accessible public toilets anywhere.
 			<br/>
 			⠀⠀I'm always working on a project. Let's connect online.
 			<br/>
 			<br/>
 			<a href="mailto:jude@judepark.com">jude@judepark.com</a> / <a href="https://twitter.com/judepark">@judepark</a>
 
-
-			<br/>
-			<br/>
-			<FlipButton link="/fairdesign" content="About how I work ⯈" hoverContent="About how I work ⯈"></FlipButton>
-			<br/>
-			<br/>
-			Other
-			<br/>
-			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/projects" content="Projects" hoverContent="Projects"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
-			<br/>
 	</HeaderSubtitle2>	
+
 
 	</PageGrid3>
 
@@ -215,23 +210,28 @@ const IndexPage = ({data}) => (
 	<PageGrid3b>
 
 	
-	<PortfolioTitle3>
+	<PortfolioTitle2>
 	COMIC OF THE DAY
-	</PortfolioTitle3>
+	</PortfolioTitle2>
 	
 	<ComicContainer>
-	<a class="grid-img" href="https://www.goodreads.com/book/show/20830437-css-secrets">
+	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
 	<BookShelf>
-	<a class="grid-img" href="https://www.instagram.com/p/B0FI7g4Bi4F/">
-	<img src="https://instagram.fybz2-2.fna.fbcdn.net/vp/804c069f4ecff216b049b1a53a42172a/5E127F90/t51.2885-15/e35/s1080x1080/67686064_894328677595699_3675276628710481233_n.jpg?_nc_ht=instagram.fybz2-2.fna.fbcdn.net" alt="" width="150" ></img>
+	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
+	<img src="https://instagram.fybz2-2.fna.fbcdn.net/vp/804c069f4ecff216b049b1a53a42172a/5E127F90/t51.2885-15/e35/s1080x1080/67686064_894328677595699_3675276628710481233_n.jpg?_nc_ht=instagram.fybz2-2.fna.fbcdn.net" alt="" width="300" ></img>
 	</a>
 
 	<BookItem>
-	Hey Jude~ Comic
-	<br/>
-	<small>
-		Instagram <IconInstagram style={{display: "inline"}}><FaInstagram size={15}/></IconInstagram>
-	</small>
+	Hey Jude ~ Comic 		
+	<div>
+	<MovingInstaButton1><IconInstagram style={{display: "inline"}}><FaInstagram size={15}/></IconInstagram></MovingInstaButton1>
+	⠀
+	<MovingInstaButton1><IconTwitter style={{display: "inline"}}><FaTwitter size={15}/></IconTwitter></MovingInstaButton1>
+	⠀
+	<MovingInstaButton1><IconFacebook style={{display: "inline"}}><FaFacebook size={15}/></IconFacebook></MovingInstaButton1>
+	
+	⠀/heyjudecomic
+	</div>
 	</BookItem>
 
 
@@ -240,70 +240,10 @@ const IndexPage = ({data}) => (
 	</ComicContainer>
 
 
-	<PageGrid4>
-
-	<PageGrid5>
-
-	<PortfolioTitle3>
-	CURRENTLY READING
-	</PortfolioTitle3>
-
-
-	<BookShelfContainer>
-	<a class="grid-img" href="https://www.goodreads.com/en/book/show/24611786">
-	<BookShelf>
-
-	<a class="grid-img" href="https://www.goodreads.com/en/book/show/24611786"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1445790468l/24611786.jpg" alt="" width="108"></img></a>
-
-	<BookItem>
-	The Introvert Entrepreneur
-	<br/>
-	<small>Beth Buelow</small>
-	</BookItem>
-
-	</BookShelf>
-	</a>
-	</BookShelfContainer>
-
-
-	</PageGrid5>
-
-	
-
-	<PageGrid5>
-
-	<PortfolioTitle3>
-	CURRENTLY WRITING
-	</PortfolioTitle3>
-
-
-	<BookShelfContainer>
-	<a class="grid-img" href="">
-	<BookShelf>
-
-	<a class="grid-img" href=""><img src="https://liljas-library.com/img/other/no_book_cover_lg.jpg" alt="" width="108"></img></a>
-
-	<BookItem>
-	Healing from Your Family - The Abuse in Loving
-	<br/>
-	<small></small>
-	</BookItem>
-
-	</BookShelf>
-	</a>
-	</BookShelfContainer>
-
-
-	</PageGrid5>
-
-	<br/><br/><br/>
-
-	
-
-	</PageGrid4>
-
-
 	</PageGrid3b>
+
+
+	
 
   </React.Fragment>
 )
@@ -582,6 +522,28 @@ NON-PROFIT
 
 I draw a comic a day (mostly), have my own podcast show, make animation shorts, write ebooks, create protest art. See all my projects on Dribble.
 
+
+
+
+
+<video width="320" height="240" controls autoplay loop muted>
+  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/mp4" />
+  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/ogg" />
+  Your browser does not support the video tag.
+</video>
+
+
+			<br/>
+			<br/>
+			<FlipButton link="/fairdesign" content="More about how I work ⯈" hoverContent="More about how I work ⯈"></FlipButton>
+			<br/>
+			<br/>
+			Other
+			<br/>
+			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/projects" content="Projects" hoverContent="Projects"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
+			<br/>
+
+			
 */
 
 
@@ -693,6 +655,13 @@ a {
 	}
 `;
 
+const IconFacebook = styled.ul`
+a {
+	&:hover {
+		color: #3b5998;
+		}
+	}
+`;
 
 
 
@@ -724,6 +693,7 @@ const PageGrid3 = styled.div`
 	padding-right: 60px;
 	max-width: 50%;
 	overflow-x: hidden;
+	overflow:hidden;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -771,6 +741,7 @@ z-index: -4;
 
 const PageGrid4 = styled.div`
 display: flex;
+overflow:hidden;
 `;
 
 const PageGrid5 = styled.div`
@@ -825,7 +796,7 @@ const HeaderSubtitle2 = styled.div`
 	max-width: 600px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
 	color: #f8f7f3;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
@@ -884,7 +855,9 @@ const PortfolioTitle3 = styled.div`
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
+	padding-left: 200px;
 	animation: ${fadeInDown} 1s;
+	transform: rotate(90deg);
 	@media(maxs-width: 425px) {
 	}
 `;
@@ -967,7 +940,7 @@ const BookShelfContainer = styled.div`
 a {
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: #f8f7f3;
 	line-height: 1.35;
 	letter-spacing: -.02em;
@@ -978,9 +951,7 @@ a {
 			}
 		}
 &:hover {
-	animation: ${MoveUp} 0.3s;
-	animation-fill-mode: forwards;
-	color: #f8f7f3;
+
 	}
 `;
 
@@ -994,7 +965,6 @@ a {
 	letter-spacing: -.02em;
 	margin-bottom: 0px;
 	font-weight: 400;
-	animation: ${Comic} 7s infinite;
 		&:hover {
 			
 			}
@@ -1021,7 +991,7 @@ animation: ${fadeInDown} 1s;
 img {
 
 	@media(max-width: 700px) {
-		width: 100px;
+		
 	}
 
 }
@@ -1030,9 +1000,18 @@ img {
 const BookItem = styled.div`
 margin-bottom: 0px;
 margin-top: 0px;
-width: 100px;
+width: 200px;
 margin-right: 20px;
 `;
+
+const MovingInstaButton1 = styled.div`
+display: inline-block;
+animation: ${MovingInstaButton} 2s infinite;
+margin-left: -30px;
+margin-top: 10px;
+`;
+
+
 
 export default IndexPage
 

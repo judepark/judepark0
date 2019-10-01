@@ -24,9 +24,9 @@ const FairDesignPage = ({data}) => (
 			<HeaderColumn>
 
 			<HeaderDescription>
-			A design methodology that I am developing to account
-			for users' social privileges in the design frameworks. 
-			The values provided are fairer access to information, 
+			A framework that measures
+			users' social privileges in the design process. 
+			The goal is to achieve fairer access to information, 
 			and sustainable business practices to promote an ethical future. 
 			Currenly gathering research.
 			<br/>
@@ -47,7 +47,7 @@ const FairDesignPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			www.fairdesign.ca
+			fairdesign.ca
 			<br/>
 			<br/>
             <span style={{fontWeight: "900", fontSize:"80%"}}>Goal of Research</span>
@@ -84,6 +84,16 @@ const FairDesignPage = ({data}) => (
 	<br/>
 	<br/>
 	</PageGride3Layout>
+
+	<div class="scroll--helper">
+  	<div class="container">
+  	</div>
+	</div>
+
+	<div class="mouse">
+	<div class="wheel"></div>
+	</div>
+
 	
 	<PageGrid3>
 
