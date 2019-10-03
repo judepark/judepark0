@@ -75,7 +75,7 @@ const AboutPage = ({data}) => (
 
 			Hi, it's nice to virtually meet you.
 			<br/>
-			⠀⠀My name is Jude Park. I am a user experience designer who promotes fair design thinking through 
+			⠀⠀My name is Jude Park. I'm a user experience designer who promotes fair design thinking through 
 			my products and services.
 			<br/>
 			⠀⠀For the past 3 years I have worked in startups, innovation labs and entrepreneurship fellowships.

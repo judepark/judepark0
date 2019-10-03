@@ -93,7 +93,7 @@ export default function Template({ data }) {
 		</Line>
 
 		<HeaderTitle accentColor={data.markdownRemark.frontmatter.accentColor}>
-			<strong>Jude Park</strong> is a User Experience Designer + Researcher who develops technological innovations for social change.
+			<strong>Jude Park</strong> is a writer who writes to feel less lonely.
 		</HeaderTitle>
 		
 		<SiteSocial accentColor={data.markdownRemark.frontmatter.accentColor}>

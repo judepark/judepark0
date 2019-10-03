@@ -83,10 +83,9 @@ const IndexPage = ({data}) => (
 		Loo
 		</HeaderTitle1>
 
-		<HeaderSubtitle>
-			<br/>
+		<HeaderSubtitle1>
 			Public Toilet Finder
-		</HeaderSubtitle>
+		</HeaderSubtitle1>
 </EachList>
 </li>
 </a>
@@ -98,10 +97,9 @@ const IndexPage = ({data}) => (
 		Fair Design
 		</HeaderTitle1>
 
-		<HeaderSubtitle>
-			<br/>
+		<HeaderSubtitle1>
 			Social Privilege Measurement Research
-		</HeaderSubtitle>
+		</HeaderSubtitle1>
 </EachList>
 </li>
 </a>
@@ -113,10 +111,9 @@ const IndexPage = ({data}) => (
 		Code for Ethics
 		</HeaderTitle1>
 
-		<HeaderSubtitle>
-			<br/>
+		<HeaderSubtitle1>
 			Repository of Ethical Codes
-		</HeaderSubtitle>
+		</HeaderSubtitle1>
 </EachList>
 </li>
 </a>
@@ -128,10 +125,9 @@ const IndexPage = ({data}) => (
 		Lumii
 		</HeaderTitle1>
 
-		<HeaderSubtitle>
-			<br/>
+		<HeaderSubtitle1>
 			Personal Career Agent AI
-		</HeaderSubtitle>
+		</HeaderSubtitle1>
 </EachList>
 </li>
 </a>
@@ -877,9 +873,9 @@ const HeaderTitle1 = styled.div`
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 40px + (45 - 40) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.80);
-	line-height: 1.35;
+	line-height: 1;
 	font-weight: 700;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	max-width: 800px;
 	margin-top: 0px;
 	letter-spacing: 0.2px;
@@ -917,6 +913,23 @@ const Line = styled.p`
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
 	margin-top: -50px;
+	max-width: 370px;
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 700;
+	animation: ${fadeInDown} 1s;
+	@media(max-width: 425px) {
+		
+	}
+`;
+
+const HeaderSubtitle1 = styled.div`
+	margin-bottom: 0px;
+	margin-top: 0px;
 	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -1258,7 +1271,7 @@ color: hsla(0, 0%, 0%, 0.35);
 const EachList = styled.div`
 list-style-type: decimal-leading-zero;
 margin-left: 0px;
-padding-bottom: 10px;
+padding-bottom: 20px;
 color: hsla(0, 0%, 0%, 0.35);
 	a {
 	}
@@ -1269,7 +1282,7 @@ color: hsla(0, 0%, 0%, 0.35);
 		animation-fill-mode: forwards;
 	}
 	@media(max-width: 1100px) {
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 `;
 
