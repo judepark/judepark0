@@ -44,14 +44,138 @@ const IndexPage = ({data}) => (
 		<HeaderTitle>
 			<span style={{fontWeight: "800"}}>Jude Park</span>
 			<br/>
-			UX Designer
+			Designer, UX
 		</HeaderTitle>
 
 		<Line>
 		<hr></hr>
 		</Line>
-		
-		<SiteSocial>
+
+		<HeaderSubtitle>
+			<br/>
+			Welcome!
+			<br/>
+			These are my works from over the years.
+			<br/>
+			Feel free to explore the collection.
+			<br/>
+		</HeaderSubtitle>
+	</PageGrid>
+
+
+
+	<br/><br/><br/><br/><br/>
+
+
+	<PageGrid2>
+
+	<PortfolioTitle>
+	FEATURED
+	</PortfolioTitle>
+
+<List>
+	
+<a href="/loo">
+<li>
+<EachList>
+
+		<HeaderTitle1>
+		Loo
+		</HeaderTitle1>
+
+		<HeaderSubtitle>
+			<br/>
+			Public Toilet Finder
+		</HeaderSubtitle>
+</EachList>
+</li>
+</a>
+
+<a href="/fairdesign">
+<li>
+<EachList>
+		<HeaderTitle1>
+		Fair Design
+		</HeaderTitle1>
+
+		<HeaderSubtitle>
+			<br/>
+			Social Privilege Measurement Research
+		</HeaderSubtitle>
+</EachList>
+</li>
+</a>
+
+<a href="/codeforethics">
+<li>
+<EachList>
+		<HeaderTitle1>
+		Code for Ethics
+		</HeaderTitle1>
+
+		<HeaderSubtitle>
+			<br/>
+			Repository of Ethical Codes
+		</HeaderSubtitle>
+</EachList>
+</li>
+</a>
+
+<a href="/lumii">
+<li>
+<EachList>
+		<HeaderTitle1>
+		Lumii
+		</HeaderTitle1>
+
+		<HeaderSubtitle>
+			<br/>
+			Personal Career Agent AI
+		</HeaderSubtitle>
+</EachList>
+</li>
+</a>
+
+</List>
+
+	</PageGrid2>
+
+
+	<br/><br/><br/>
+				
+	<PageGride3Layout>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	</PageGride3Layout>
+	
+	<PageGrid3>
+
+	<PortfolioTitle2>
+	CONTACT
+	</PortfolioTitle2>
+	
+	<HeaderSubtitle2>
+	
+	<h3 style={{fontWeight: "400"}}>
+	Want to say hello? Need a speaker for your event? Need someone to talk to? I’m here for you. Send a note.</h3>
+
+	</HeaderSubtitle2>	
+	
+
+	<SiteSocial>
 			<li>
 				<IconMail>
 				<a href="mail:jude@judepark.com" target="_blank">
@@ -95,152 +219,64 @@ const IndexPage = ({data}) => (
 				</IconGithub>
 			</li>
 		</SiteSocial>
-		
-
-		<HeaderSubtitle>
-			<br/>
-			Welcome!
-			<br/>
-			These are my works from over the years.
-			<br/>
-			Feel free to explore the collection.
-			<br/>
-		</HeaderSubtitle>
-	</PageGrid>
-
-
-
-	<br/><br/><br/><br/><br/>
-
-
-
 	
-	<PageGrid2>
 
-	<PortfolioTitle>
-	BLOG
-	</PortfolioTitle>
-
-		<ArticleCardGrid>
-
-			{data.allMarkdownRemark.edges.map(({node}) => (
-				<ArticleCard data={node} key={node.key}></ArticleCard>
-			))}
-
-		</ArticleCardGrid>
-	</PageGrid2>
-
+	</PageGrid3>
 	
-	<PageGrid2>
-
-	<PortfolioTitle>
-	PROJECTS
-	</PortfolioTitle>
-
-	<Gallery2>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="220" height="162"></img><GalleryItem>Lumii (iOS)</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><GalleryItem>Experience Map - Robarts Library</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="220" height="162"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><GalleryItem>UX Research - Mental Health Services</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6979124/web_page_psd_mockup_4x.png" alt="" width="220" height="162"></img><GalleryItem>Website Design - Second Chance</GalleryItem></a>
 
 
-	</Gallery2>
-
-
-	</PageGrid2>
-
-	<br/><br/><br/><br/><br/>
-				
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
-	
 	<PageGrid3>
 
 	<PortfolioTitle2>
-	ABOUT
 	</PortfolioTitle2>
-	
 	<HeaderSubtitle2>
-
-			Hi, it's nice to virtually meet you.
-			<br/>
-			⠀⠀My name is Jude Park.
-			I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
-			<br/>
-			⠀⠀I studied History, Anthropology, Linguistics, Library Science, Information Systems, and User Experience.
-			<br/>
-			⠀⠀I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
-			accessible public toilets anywhere.
-			<br/>
-			⠀⠀I'm always working on a project. Let's connect online.
-			<br/>
-			<br/>
-			<a href="mailto:jude@judepark.com">jude@judepark.com</a> / <a href="https://twitter.com/judepark">@judepark</a>
-
 	</HeaderSubtitle2>	
+	
 
+	<form method="post" action="#" data-netlify="true" name="contact">
+  <input type="hidden" name="form-name" value="contact" />
+  
+  	<FormInfo>
+	<FormName>
+	<PortfolioTitle3>
+	NAME
+	</PortfolioTitle3>
+	<h4>
+		<label><input type="text" name="name" id="name" for="name" placeholder="What is your name?" required /></label>
+	</h4>
+	</FormName>
+
+	<FormEmail>
+	<PortfolioTitle3>
+	EMAIL
+	</PortfolioTitle3>
+	<h4> 
+		<label><input type="text" name="email" id="email" placeholder="Your email?" required /></label>
+	</h4>
+	</FormEmail>
+
+	</FormInfo>
+
+	<FormNote>
+
+	<FormNoteContent>
+	<PortfolioTitle3>
+	NOTE
+	</PortfolioTitle3>
+	<h4> 
+		<label><textarea name="message" id="message" rows="4" placeholder="How can I help?" required /></label>
+	</h4>
+
+	<PortfolioTitle3> <input type="submit" id="sendbutton" value="SEND ME A NOTE" /> </PortfolioTitle3>
+  	
+	</FormNoteContent>
+	</FormNote>
+
+	</form>
+
+	
 
 	</PageGrid3>
-
-
-	<PageGrid3b>
-
-	
-	<PortfolioTitle2>
-	COMIC OF THE DAY
-	</PortfolioTitle2>
-	
-	<ComicContainer>
-	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
-	<BookShelf>
-	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
-	<img src="https://instagram.fybz2-2.fna.fbcdn.net/vp/804c069f4ecff216b049b1a53a42172a/5E127F90/t51.2885-15/e35/s1080x1080/67686064_894328677595699_3675276628710481233_n.jpg?_nc_ht=instagram.fybz2-2.fna.fbcdn.net" alt="" width="300" ></img>
-	</a>
-
-	<BookItem>
-	Hey Jude ~ Comic 		
-	<div>
-	<MovingInstaButton1><IconInstagram style={{display: "inline"}}><FaInstagram size={15}/></IconInstagram></MovingInstaButton1>
-	⠀
-	<MovingInstaButton1><IconTwitter style={{display: "inline"}}><FaTwitter size={15}/></IconTwitter></MovingInstaButton1>
-	⠀
-	<MovingInstaButton1><IconFacebook style={{display: "inline"}}><FaFacebook size={15}/></IconFacebook></MovingInstaButton1>
-	
-	⠀/heyjudecomic
-	</div>
-	</BookItem>
-
-
-	</BookShelf>
-	</a>
-	</ComicContainer>
-
-
-	</PageGrid3b>
 
 
 	
@@ -543,6 +579,76 @@ I draw a comic a day (mostly), have my own podcast show, make animation shorts, 
 			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/projects" content="Projects" hoverContent="Projects"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
 			<br/>
 
+
+
+
+
+
+
+
+			<PageGrid3>
+
+	<PortfolioTitle2>
+	ABOUT
+	</PortfolioTitle2>
+	
+	<HeaderSubtitle2>
+
+			Hi, it's nice to virtually meet you.
+			<br/>
+			⠀⠀My name is Jude Park.
+			I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
+			<br/>
+			⠀⠀I studied History, Anthropology, Linguistics, Library Science, Information Systems, and User Experience.
+			<br/>
+			⠀⠀I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
+			accessible public toilets anywhere.
+			<br/>
+			⠀⠀I'm always working on a project. Let's connect online.
+			<br/>
+			<br/>
+			<a href="mailto:jude@judepark.com">jude@judepark.com</a> / <a href="https://twitter.com/judepark">@judepark</a>
+
+	</HeaderSubtitle2>	
+
+
+	</PageGrid3>
+
+
+	<PageGrid3b>
+
+	
+	<PortfolioTitle2>
+	COMIC OF THE DAY
+	</PortfolioTitle2>
+	
+	<ComicContainer>
+	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
+	<BookShelf>
+	<a class="grid-img" href="https://www.instagram.com/heyjudecomic/">
+	<img src="https://instagram.fybz2-2.fna.fbcdn.net/vp/804c069f4ecff216b049b1a53a42172a/5E127F90/t51.2885-15/e35/s1080x1080/67686064_894328677595699_3675276628710481233_n.jpg?_nc_ht=instagram.fybz2-2.fna.fbcdn.net" alt="" width="300" ></img>
+	</a>
+
+	<BookItem>
+	Hey Jude ~ Comic 		
+	<div>
+	<MovingInstaButton1><IconInstagram style={{display: "inline"}}><FaInstagram size={15}/></IconInstagram></MovingInstaButton1>
+	⠀
+	<MovingInstaButton1><IconTwitter style={{display: "inline"}}><FaTwitter size={15}/></IconTwitter></MovingInstaButton1>
+	⠀
+	<MovingInstaButton1><IconFacebook style={{display: "inline"}}><FaFacebook size={15}/></IconFacebook></MovingInstaButton1>
+	
+	⠀/heyjudecomic
+	</div>
+	</BookItem>
+
+
+	</BookShelf>
+	</a>
+	</ComicContainer>
+
+
+	</PageGrid3b>
 			
 */
 
@@ -561,7 +667,7 @@ const SiteSocial = styled.ul`
 	margin-right: 40px;
 	margin-left: -30px;
 	margin-bottom: 0px;
-	margin-top: -50px;
+	margin-top: -10px;
 	animation: ${fadeInDown} 1s;
 	/*width: 100%;*/
 	li {
@@ -571,7 +677,7 @@ const SiteSocial = styled.ul`
 			font-size: 0.7rem;
 			font-weight: 500;
 			text-decoration: none;
-			color: hsla(0, 0%, 0%, 0.35);
+			color: #f8f7f3;
 			transition: all 0.3s;
 		}
 	}
@@ -586,7 +692,7 @@ const SiteSocial = styled.ul`
 const IconMail = styled.ul`
 a {
 	&:hover {
-		color: #f1d592;
+		color: #ffcc00;
 		}
 	}
 `;
@@ -618,7 +724,7 @@ a {
 const IconGithub = styled.ul`
 a {
 	&:hover {
-		color: #333;
+		color: #CCCCCC;
 		}
 	}
 `;
@@ -674,8 +780,8 @@ const PageGrid = styled.div`
 `;
 
 const PageGrid2 = styled.div`
-	display: inline-grid;
-	max-width: 50%;
+	display: grid;
+	max-width: 40%;
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -689,7 +795,8 @@ const PageGrid2 = styled.div`
 const PageGrid3 = styled.div`
 	display: inline-grid;
 	position: relative;
-	margin-bottom: -160px;
+	margin-bottom: -100px;
+	margin-top: 100px;
 	padding-right: 60px;
 	max-width: 50%;
 	overflow-x: hidden;
@@ -700,7 +807,7 @@ const PageGrid3 = styled.div`
 	}
 	@media(max-width: 1055px) {
 		padding-top:30px;
-		margin-top: 30px;
+		margin-top: 100px;
 		padding-bottom:30px;
 		max-width: 100%;
 		background-color: hsla(0, 0%, 0%, 0.8);
@@ -765,10 +872,43 @@ const HeaderTitle = styled.div`
 	}
 `;
 
+const HeaderTitle1 = styled.div`
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 40px + (45 - 40) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.80);
+	line-height: 1.35;
+	font-weight: 700;
+	margin-bottom: 20px;
+	max-width: 800px;
+	margin-top: 0px;
+	letter-spacing: 0.2px;
+	animation: ${fadeInDown} 1s;
+	@media(max-width: 720px) {
+		
+	}
+`;
+
+const HeaderTitle2 = styled.div`
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 40px + (45 - 40) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.80);
+	line-height: 1.35;
+	font-weight: 700;
+	margin-bottom: 20px;
+	max-width: 800px;
+	margin-top: 0px;
+	letter-spacing: 0.2px;
+	@media(max-width: 720px) {
+		
+	}
+`;
+
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 35%;
+	width: 370px;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -776,7 +916,8 @@ const Line = styled.p`
 
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
-	max-width: 600px;
+	margin-top: -50px;
+	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
@@ -845,8 +986,9 @@ const PortfolioTitle2 = styled.div`
 	}
 `;
 
+
 const PortfolioTitle3 = styled.div`
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	margin-top: 0px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -855,9 +997,7 @@ const PortfolioTitle3 = styled.div`
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
-	padding-left: 200px;
 	animation: ${fadeInDown} 1s;
-	transform: rotate(90deg);
 	@media(maxs-width: 425px) {
 	}
 `;
@@ -1011,6 +1151,127 @@ margin-left: -30px;
 margin-top: 10px;
 `;
 
+
+
+const FormInfo = styled.div`
+display: flex;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormNote = styled.div`
+display: block;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormNoteContent = styled.div`
+display: block;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormName = styled.div`
+width: 100%;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormEmail = styled.div`
+width: 100%;
+animation: ${fadeInDown} 1s;
+`;
+
+
+const HeaderColumn = styled.div`
+	columns: 2;
+	column-gap: 40px;
+	column-rule: 1.5px solid hsla(0, 0%, 0%, 0.35);
+	margin-bottom: 100px;
+	animation: ${fadeInDown} 0.5s;
+	@media(max-width: 425px) {
+	}
+`;
+
+
+const HeaderDescription = styled.div`
+	max-width: 100%;
+	display: inline-block;
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 700;
+	animation: ${fadeInDown} 0.5s;
+	@media(max-width: 425px) {
+	}
+`;
+
+const HeaderDescription2 = styled.div`
+	max-width: 100%;
+	columns: 2;
+	display: inline-block;
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 700;
+	animation: ${fadeInDown} 0.5s;
+	@media(max-width: 425px) {
+	}
+`;
+
+const NonExistentLine = styled.div`
+`;
+
+
+const Line2 = styled.p`
+	animation: ${fadeInDown} 0.5s;
+	margin-bottom: 15px;
+	width: 80%;
+	@media(max-width: 820px) {
+		width: 100%;
+	}
+`;
+
+const List = styled.ul`
+list-style-type: decimal-leading-zero;
+margin-left: 0px;
+color: hsla(0, 0%, 0%, 0.35);
+	a {
+		font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+			Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-size: calc( 20px + (25 - 20) * (100vw - 400px) / (1300 - 400) );
+		font-weight: 400;
+		letter-spacing: 0.2px;
+		line-height: 1.5;
+		color: hsla(0, 0%, 0%, 0.35);
+	}
+	a:hover {
+		font-weight: bold;
+	}
+	@media(max-width: 1100px) {
+		margin-left: 20px;
+	}
+`;
+
+const EachList = styled.div`
+list-style-type: decimal-leading-zero;
+margin-left: 0px;
+padding-bottom: 10px;
+color: hsla(0, 0%, 0%, 0.35);
+	a {
+	}
+	&:hover {
+		font-weight: bold;
+		color: hsla(0, 0%, 0%, 0.35);
+		animation: ${MoveUp} 0.3s;
+		animation-fill-mode: forwards;
+	}
+	@media(max-width: 1100px) {
+		margin-left: 20px;
+	}
+`;
 
 
 export default IndexPage

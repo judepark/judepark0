@@ -142,7 +142,27 @@ select,
 textarea {
 	font: inherit;
 	margin: 0;
+	background-color: #313131;
+	opacity: 1;
+	color: #f8f7f3;
+	border:none;
+	border-bottom: 1.5px solid #f8f7f3;
+	outline: none;
+	resize: vertical;
+	height: 35px;
 }
+#message {
+ width: 395px;
+ height: 35px;
+ overflow: hidden;
+ 
+}
+#sendbutton {
+	border-bottom: none;
+	cursor: pointer;
+	margin-left: 0px;
+	letter-spacing: 0.5px;
+ }
 optgroup {
 	font-weight: 700;
 }
@@ -470,6 +490,7 @@ form {
 	padding-right: 0;
 	padding-top: 0;
 	margin-bottom: 1.45rem;
+	background-color: #313131;
 }
 noscript {
 	margin-left: 0;
@@ -1209,3 +1230,122 @@ box-shadow: 3px 3px 3px 0px rgba(151, 146, 153,0.6);
 
 
 
+
+
+
+	
+	
+
+
+body:before {
+	content: "";
+  display: table;
+  clear: both;
+}
+*,
+*:before,
+*:after  { box-sizing: inherit; }
+
+/* Tab Styles */
+.tab-group {
+	margin: 1em auto;
+	max-width: 40em;
+	width: 100%;
+}
+
+.tab {
+	position: relative;
+		width: 100%;
+		margin-bottom: 30px;
+}
+
+.tab input { 
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -999;
+}
+	
+.tab label {
+	background: #f8f7f3;
+	color: hsla(0, 0%, 0%, 0.8);
+	cursor: pointer;
+	display: block;
+	line-height: 3;
+	padding-left: 0; 
+	font-weight: 800; 
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	width: 500px;
+
+}	
+
+.tab input:focus + label,
+.tab label:hover{ 
+	background: #f8f7f3;
+}
+
+.tab-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.55s;
+	transition-timing-function: ease-in-out;
+}
+
+.tab-content h4 {
+	margin-bottom: 0px;
+}
+
+/* open the tab when label is checked */
+
+.tab input:checked ~ .tab-content { 
+	max-height: 7.25em;
+}
+
+
+/*.tab > input:not(:focus) ~ .tab-content { 
+	max-height: 0;
+	transition: all .75s cubic-bezier(0.19, 1, 0.22, 1) .15s;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.featurecontainer{
+  margin: 20px auto;
+  width:400px;
+  height:400px;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  .box{
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+  }
+
+}

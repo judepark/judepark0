@@ -48,10 +48,11 @@ color: ${props => props.accent};
 
 const ArticleCardContainer = styled.div`
 	display: grid;
-	width: 100%;
-	grid-template-columns: 78% 1fr;
+	width: 370px;
+	grid-template-columns: 77% 1fr;
 	overflow: hidden;
 	margin-bottom: 0px;
+	margin-right:0px;
 	&:hover {
 		opacity: 1;
 	}

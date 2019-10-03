@@ -39,7 +39,7 @@ const AboutPage = ({data}) => (
 	  
 		<br/><br/><br/><br/><br/>
 
-	  <PageGrid>
+	  <PageGrid2>
 		<HeaderTitle>
 			<span style={{fontWeight: "800"}}>About</span>
 		</HeaderTitle>
@@ -47,60 +47,17 @@ const AboutPage = ({data}) => (
 		<Line>
 		<hr></hr>
 		</Line>
-		
-		<SiteSocial>
-			<li>
-				<IconMail>
-				<a href="mail:jude@judepark.com" target="_blank">
-					<FaEnvelope size={iconSize}/>
-				</a>
-				</IconMail>
-			</li>
-			<li>
-				<IconLinkedin>
-				<a href="https://www.linkedin.com/in/judepark/" target="_blank">
-					<FaLinkedin size={iconSize}/>
-				</a>
-				</IconLinkedin>
-			</li>
-			<li>
-				<IconInstagram>
-				<a href="https://www.instagram.com/judepark/" target="_blank">
-					<FaInstagram size={iconSize}/>
-				</a>
-				</IconInstagram>
-			</li>
-			<li>
-				<IconTwitter>
-				<a href="https://twitter.com/judepark/" target="_blank">
-					<FaTwitter size={iconSize}/>
-				</a>
-				</IconTwitter>
-			</li>
-			<li>
-				<IconDribble>
-				<a href="https://dribbble.com/judepark/" target="_blank">
-					<FaDribbble size={iconSize}/>
-				</a>
-				</IconDribble>
-			</li>
-			<li>
-				<IconGithub>
-				<a href="https://github.com/judepark/" target="_blank">
-					<FaGithub size={iconSize}/>
-				</a>
-				</IconGithub>
-			</li>
-		</SiteSocial>
-		
 
 		<HeaderSubtitle>
 			<br/>
 			"With my seat at the table, I will bring voices that can mobilize people to make smart decisions."
 
 		</HeaderSubtitle>
-	</PageGrid>
+	</PageGrid2>
 
+	<PageGrid2>
+	
+	</PageGrid2>
 
 
 	<br/><br/><br/><br/><br/>
@@ -111,33 +68,86 @@ const AboutPage = ({data}) => (
 	<PageGrid2>
 
 	<PortfolioTitle>
+	INTRO
+	</PortfolioTitle>
+
+	<HeaderSubtitle1>
+
+			Hi, it's nice to virtually meet you.
+			<br/>
+			⠀⠀My name is Jude Park. I am a user experience designer who promotes fair design thinking through 
+			my products and services.
+			<br/>
+			⠀⠀For the past 3 years I have worked in startups, innovation labs and entrepreneurship fellowships.
+			<br/>
+			⠀⠀I studied User Experience, Information Systems, Library Science at University of Toronto (Masters) 
+			and Anthropology, Linguistics, History at Trent University (Bachelors).
+			<br/>
+			⠀⠀I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
+			<br/>
+			⠀⠀I'm always working on a project. Let's connect online.
+			<br/>
+			<br/>
+			<a href="mailto:jude@judepark.com">jude@judepark.com</a> / <a href="https://twitter.com/judepark">@judepark</a>
+
+	</HeaderSubtitle1>	
+
+
+
+	<PortfolioTitle style={{marginTop: "50px", marginBottom:"13px"}}>
 	Q & A
 	</PortfolioTitle>
 
 <HeaderSubtitle1>
-	<h4 style={{fontWeight: "800", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "1.5px"}}>
-	Where are you working right now?</h4>
-	<h4>I've decided to pursue my own ventures. Loo is my app that helps you find accessible
-		toilets nearby in your city. Invest in me, I need capital!
-	</h4>
 
-	<h4 style={{fontWeight: "800", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "1.5px"}}>
-	What's your working style? What makes you different?</h4>
-	<h4>As a designer, I prioritize the user experience of my design systems.
-		I believe in the ethical responsibilities, and in creating an accessible future for all.
-	</h4>
+	  <div class="tab-group">  
+	  
+		  <div class="tab">
+			  <input id="tab-1" type="radio" name="tabs"/> 
+			  <label for="tab-1" >Where are you working right now?</label>
+			  <div class="tab-content">
+			  	<h4>I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
+			accessible public toilets in your city. Invest in me, I need capital!
+				  </h4>
+			  </div>
+		  </div>
+		  
 
-	<h4 style={{fontWeight: "800", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "1.5px"}}>
-	Why this line of work?</h4>
-	<h4>I've done enough hiding behind schools and degrees and jobs I don't 
-		particularly care about. I want to do what I enjoy before it's too late.
-	</h4>
+		  <div class="tab">
+			  <input id="tab-2" type="radio" name="tabs"/> 
+			  <label for="tab-2" >What's your working style? What makes you different?</label>
+			  <div class="tab-content">
+				  <h4>As a designer, I prioritize the user experience of my design systems.
+		I believe in ethical responsibilities, and creating an accessible future for all.
+					</h4>
+			  </div>
+		  </div>
 
-	<h4 style={{fontWeight: "800", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "1.5px"}}>
-	Who are you outside of your work?</h4>
-	<h4>I am an ex-refugee, orphaned by both my parents, assault survivor, grew up in Jane and Weston, 
-		LGBT+ member. I'm also incredibly resourceful, thoughtful and creative. I love to swim, write, code.
-	</h4>
+
+		  <div class="tab">
+			  <input id="tab-3" type="radio" name="tabs"/> 
+			  <label for="tab-3" >Why this line of work?</label>
+			  <div class="tab-content">
+				  <h4>I've done enough of hiding behind schools and degrees and jobs. 
+					  I want to go after big things before it's too late.
+				</h4>
+			  </div>
+		  </div>
+
+
+		  <div class="tab">
+			  <input id="tab-4" type="radio" name="tabs"/> 
+			  <label for="tab-4">Who are you outside of your work?</label>
+			  <div class="tab-content">
+				  <h4>I am an ex-refugee, orphaned by my parents, assault survivor, grew up in Jane and Weston, 
+		LGBT+ member. I'm also incredibly resourceful, thoughtful and creative. I love to swim, write, code. 
+		I help out with the non-profit <a href="https://www.bridgetoyouth.com/">BridgeTO</a>.
+				</h4>
+			  </div>
+		  </div>
+		  
+	  </div>
+
 	</HeaderSubtitle1>
 
 
@@ -159,7 +169,7 @@ const AboutPage = ({data}) => (
 
 	<h4 style={{fontSize:"50%", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "10px"}}>2018-2019</h4>
 	<h3 style={{fontWeight: "700", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "0px"}}>
-	Fellow</h3>
+	Entrepreneur Fellow</h3>
 	<h6 style={{fontWeight: "400", marginBottom: "3px"}}>Venture for Canada</h6>
 	<h4 style={{fontSize:"50%", marginBottom: "31px"}}>Canada</h4>
 
@@ -176,165 +186,12 @@ const AboutPage = ({data}) => (
 	<h4 style={{fontSize:"50%", marginBottom: "31px"}}>Toronto, Ontario</h4>
 	</Resume>
 
-	</PageGrid2>
-
-	<br/><br/><br/><br/><br/>
-				
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
-	
-	<PageGrid3>
-
-	<PortfolioTitle2>
-	CONTACT
-	</PortfolioTitle2>
-	
-	<HeaderSubtitle2>
-	
-	<VideoContainer>
-	<video width="" height="320" autoPlay loop muted>
-  <source src="/profile.mp4" type="video/mp4" />
-  <source src="/profile.mp4" type="video/ogg" />
-  Your browser does not support the video tag.
-	</video>
-	</VideoContainer>
-
-	</HeaderSubtitle2>	
-	
-
-	<form method="post" action="#" data-netlify="true" name="contact">
-  <input type="hidden" name="form-name" value="contact" />
-  <input type="text" name="name" id="name" required />
-  <input type="text" name="email" id="email" required />
-  <textarea name="message" id="message" rows="4" required />
-  <input type="submit" value="Send Message" />
-</form>
-
-	
-
-	</PageGrid3>
-	
-
-  </React.Fragment>
-)
-
-
-/* 
-
-To add later when I finish them:
-
-			<li>
-				<IconYoutube>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaYoutube size={iconSize}/>
-				</a>
-				</IconYoutube>
-			</li>
-			<li>
-				<IconVimeo>
-				<a href="https://vimeo.com/judepark/" target="_blank">
-					<FaVimeo size={iconSize}/>
-				</a>
-				</IconVimeo>
-			</li>
-			<li>
-				<IconMedium>
-				<a href="https://medium.com/@judepark" target="_blank">
-					<FaMedium size={iconSize}/>
-				</a>
-				</IconMedium>
-			</li>
-
-
-	<PortfolioTitle>
-	DESIGN REEL
+	<PortfolioTitle style={{marginBottom:"60px"}}>
+	CONNECT
 	</PortfolioTitle>
 
-	<PortfolioTitle>
-	ARTICLES
-	</PortfolioTitle>
 
-			Industry Curriculum Vitae  ⭳
-
-			<br/>
-			Academic Curriculum Vitae ⭳
-
-			<br/>
-			<br/>
-			<FlipButton link="mailto:jude@judepark.com" content="Hire Me" hoverContent="I'm Available"></FlipButton>
-		</HeaderSubtitle>
-
-
-		
-	<PageGrid3>
-
-	<PortfolioTitle>
-	DESIGN REEL
-	</PortfolioTitle>
-
-	<Video
-        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        videoTitle="Official Music Video on YouTube"
-      />
-
-	</PageGrid3>
-
-
-
-	<PortfolioTitle style={{marginTop:"50px"}}>
-	ANIMATION x MOTION
-	</PortfolioTitle>
-
-	<Gallery>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6906366-One-Poster-Mockup"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6906366/one_poster_mockup_4x.png" alt="" width="210" height="155"></img><GalleryItem>Nightstand</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>Book of Revelations</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="210" height="155"></img><GalleryItem>JUDE Journal</GalleryItem></a>
-
-	</Gallery>
-
-
-
-
-	*****THE FOLLOWING IS THE FULL VERSION OF MY WEBSITE THAT I WILL RE-INSTATE AFTER I GET A JOB.****
-
-
-		  <LoadingScreen>
-	  ⠀
-	  </LoadingScreen>
-	  
-	  <PageGrid>
-		<HeaderTitle>
-			<strong>Jude Park</strong>
-			<br/>
-			User Experience Designer + Researcher
-		</HeaderTitle>
-
-		<Line>
-		<hr></hr>
-		</Line>
-		
-		<SiteSocial>
+	<SiteSocial>
 			<li>
 				<IconMail>
 				<a href="mail:jude@judepark.com" target="_blank">
@@ -378,160 +235,34 @@ To add later when I finish them:
 				</IconGithub>
 			</li>
 		</SiteSocial>
-		
-
-		<HeaderSubtitle>
-			<br/>
-			Welcome to my site!
-			<br/>
-			These are my works from over the years.
-			<br/>
-			Feel free to explore the collection.
-			<br/>
-		</HeaderSubtitle>
-	</PageGrid>
-
-	<PageGrid2>
-
-	<PortfolioTitle>
-	ARTICLES
-	</PortfolioTitle>
-
-		<ArticleCardGrid>
-
-			{data.allMarkdownRemark.edges.map(({node}) => (
-				<ArticleCard data={node} key={node.key}></ArticleCard>
-			))}
-
-		</ArticleCardGrid>
-	</PageGrid2>
-
-	
-	<PageGrid2>
-
-	<PortfolioTitle>
-	PORTFOLIO
-	</PortfolioTitle>
-
-	<Gallery>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Loo (Android/iOS)</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Code for Ethics</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Fair Design Measurement</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>Lumii (iOS)</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/6839300-Lumii-iOS"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839300/3-1.png" alt="" width="140" height="103"></img><GalleryItem>EpiSense (Plugin)</GalleryItem></a>
-	<a class="grid-img" href="https://dribbble.com/shots/7083094-Bookies"><img src="https://cdn.dribbble.com/users/1813673/screenshots/7083094/media/99b847a2f05d3e681d66933ddd06828a.png" alt="" width="140" height="103"></img><GalleryItem>Bookies (iOS)</GalleryItem></a>
-
-	</Gallery>
-
-	<PortfolioTitle style={{marginTop:"20px"}}>
-	RESEARCH x DESIGN
-	</PortfolioTitle>
-
-	<Gallery2>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><GalleryItem>Pamphlet - LGBT+ 팸플릿</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839242/mockup3_4x.png" alt="" width="220" height="162"></img><GalleryItem>Experience Map - Robarts Library</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6839229/poster5_4x.png" alt="" width="220" height="162"></img><GalleryItem>UX Research Poster - Mental Health</GalleryItem></a>
-
-	<a class="grid-img" href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6979124/web_page_psd_mockup_4x.png" alt="" width="220" height="162"></img><GalleryItem>Website Design - Second Chance</GalleryItem></a>
 
 
-	</Gallery2>
 
 	</PageGrid2>
 
+	<br/><br/><br/>
 
 
-
-	<PageGrid3>
-
-	<PortfolioTitle>
-	ABOUT
-	</PortfolioTitle>
+	<PageGride3Layout>
+	<br/>
+	<br/>
+	<br/>
+	</PageGride3Layout>
 	
-	<HeaderSubtitle2>
 
-			<strong>Jude Park</strong> is a User Experience Designer + Researcher 
-			who promotes social causes using technology.
-			<br/>
-			<br/>
-			Educated with a master's in User Experience Design from University of Toronto,
-			and bachelor's in Anthropology, History and Linguistics from Trent,
-			Jude is currently available for work.
-			<br/>
-			<br/>
-			Always asking what is fair in the world of design, 
-			Jude is inventing a new approach 
-			to designing user experience.
-			<br/>
-			<br/>
-			<FlipButton link="/fairdesign" content="More about how I work ⯈" hoverContent="More about how I work ⯈"></FlipButton>
-			<br/>
-			<br/>
-			Other
-			<br/>
-			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
-			<br/>
-	</HeaderSubtitle2>	
-
-	</PageGrid3>
-
-<PageGrid3>
-
-<PortfolioTitle style={{marginTop:"50px"}}>
-OTHER PROJECTS
-</PortfolioTitle>
-
-<Gallery>
-
-<a class="grid-img" href="https://dribbble.com/shots/6906366-One-Poster-Mockup"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6906366/one_poster_mockup_4x.png" alt="" width="160" height="118"></img><GalleryItem>Nightstand Radio</GalleryItem></a>
-
-<a class="grid-img" href="https://dribbble.com/shots/6729418-Book-of-Revelations"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729418/book_of_revelations_dribble_reduced_4x.png" alt="" width="160" height="118"></img><GalleryItem>Book of Revelations</GalleryItem></a>
-
-<a class="grid-img" href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1"><img src="https://cdn.dribbble.com/users/1813673/screenshots/6729227/jude_journal_dribble_page_reduced_4x.png" alt="" width="160" height="118"></img><GalleryItem>JUDE Journal</GalleryItem></a>
-
-</Gallery>
-
-<PortfolioTitle style={{marginTop:"0px"}}>
-NON-PROFIT
-</PortfolioTitle>
-
-<Gallery>
-
-<a class="grid-img" href="https://www.bridgetoyouth.com/"><img src="https://static1.squarespace.com/static/5d4a46e37f8c8d0001521fc5/t/5d4cbb22c40b1700010fd3af/1565463825871/?format=1500w" alt="" width="118" height="118"></img><GalleryItem>BridgeTO</GalleryItem></a>
-
-</Gallery>
-
-</PageGrid3>
+  </React.Fragment>
+)
 
 
-I draw a comic a day (mostly), have my own podcast show, make animation shorts, write ebooks, create protest art. See all my projects on Dribble.
+/* 
 
-
-
-
-
-<video width="320" height="240" controls autoplay loop muted>
-  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/mp4" />
-  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/ogg" />
+	<VideoContainer>
+	<video width="" height="250" autoPlay loop muted>
+  <source src="/profile.mp4" type="video/mp4" />
+  <source src="/profile.mp4" type="video/ogg" />
   Your browser does not support the video tag.
-</video>
-
-
-			<br/>
-			<br/>
-			<FlipButton link="/fairdesign" content="More about how I work ⯈" hoverContent="More about how I work ⯈"></FlipButton>
-			<br/>
-			<br/>
-			Other
-			<br/>
-			<FlipButton link="/writing" content="Writing" hoverContent="Writing"></FlipButton> | <FlipButton link="/projects" content="Projects" hoverContent="Projects"></FlipButton> | <FlipButton link="/comic" content="Comic" hoverContent="Comic"></FlipButton> | <FlipButton link="/myrecommendations" content="My Recommendations" hoverContent="My Recommendations"></FlipButton>
-			<br/>
-
-			
+	</video>
+	</VideoContainer>	
 */
 
 
@@ -559,7 +290,7 @@ const SiteSocial = styled.ul`
 			font-size: 0.7rem;
 			font-weight: 500;
 			text-decoration: none;
-			color: hsla(0, 0%, 0%, 0.35);
+			color: hsla(0, 0%, 0%, 0.8);
 			transition: all 0.3s;
 		}
 	}
@@ -712,7 +443,7 @@ const PageGride3Layout = styled.div`
 background-color: hsla(0, 0%, 0%, 0.8);
 margin-left: -200px;
 margin-right: -200px;
-margin-bottom:-540px;
+margin-bottom:-200px;
 position: relative;
 z-index: -4;
 @media(max-width: 1055px) {
@@ -749,7 +480,7 @@ const HeaderTitle = styled.div`
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 35%;
+	width: 370px;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -757,7 +488,8 @@ const Line = styled.p`
 
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
-	max-width: 36%;
+	margin-top: -50px;
+	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
@@ -772,8 +504,8 @@ const HeaderSubtitle = styled.div`
 `;
 
 const HeaderSubtitle1 = styled.div`
-	margin-bottom: 0px;
-	max-width: 80%;
+	margin-bottom: 10px;
+	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
@@ -782,6 +514,14 @@ const HeaderSubtitle1 = styled.div`
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 1s;
+	a {
+		all: inherit;
+		display: inline;
+		&:hover {
+			cursor: pointer;
+			}
+		}
+	}
 	@media(max-width: 425px) {
 		
 	}
@@ -842,7 +582,7 @@ const PortfolioTitle2 = styled.div`
 `;
 
 const PortfolioTitle3 = styled.div`
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	margin-top: 0px;
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -851,9 +591,7 @@ const PortfolioTitle3 = styled.div`
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
-	padding-left: 200px;
 	animation: ${fadeInDown} 1s;
-	transform: rotate(90deg);
 	@media(maxs-width: 425px) {
 	}
 `;
@@ -1008,14 +746,47 @@ margin-top: 10px;
 
 const Resume = styled.div`
 animation: ${fadeInDown} 1s;
+margin-bottom:30px;
+
 `;
 
 const VideoContainer = styled.div`
 object-fit: cover;
 width:100%;
-height:100%;
+height: 100%;
+overflow:hidden;
+position: absolute;
+margin-top: -140px;
+margin-left: 23px;
+
+animation: ${fadeInDown} 1s;
 `;
 
+
+const FormInfo = styled.div`
+display: flex;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormNote = styled.div`
+display: block;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormNoteContent = styled.div`
+display: block;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormName = styled.div`
+width: 100%;
+animation: ${fadeInDown} 1s;
+`;
+
+const FormEmail = styled.div`
+width: 100%;
+animation: ${fadeInDown} 1s;
+`;
 
 
 export default AboutPage

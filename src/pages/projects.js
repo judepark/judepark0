@@ -48,57 +48,9 @@ const ProjectsPage = ({data}) => (
 		<hr></hr>
 		</Line>
 		
-		<SiteSocial>
-			<li>
-				<IconMail>
-				<a href="mail:jude@judepark.com" target="_blank">
-					<FaEnvelope size={iconSize}/>
-				</a>
-				</IconMail>
-			</li>
-			<li>
-				<IconLinkedin>
-				<a href="https://www.linkedin.com/in/judepark/" target="_blank">
-					<FaLinkedin size={iconSize}/>
-				</a>
-				</IconLinkedin>
-			</li>
-			<li>
-				<IconInstagram>
-				<a href="https://www.instagram.com/judepark/" target="_blank">
-					<FaInstagram size={iconSize}/>
-				</a>
-				</IconInstagram>
-			</li>
-			<li>
-				<IconTwitter>
-				<a href="https://twitter.com/judepark/" target="_blank">
-					<FaTwitter size={iconSize}/>
-				</a>
-				</IconTwitter>
-			</li>
-			<li>
-				<IconDribble>
-				<a href="https://dribbble.com/judepark/" target="_blank">
-					<FaDribbble size={iconSize}/>
-				</a>
-				</IconDribble>
-			</li>
-			<li>
-				<IconGithub>
-				<a href="https://github.com/judepark/" target="_blank">
-					<FaGithub size={iconSize}/>
-				</a>
-				</IconGithub>
-			</li>
-		</SiteSocial>
-		
-
 		<HeaderSubtitle>
 			<br/>
-			Welcome to my projects page.
-			This archive reflects the time, bliss, fun and passions
-			I poured into my work. 
+			This is my complete portfolio of things I built, designed, created.
 		</HeaderSubtitle>
 	</PageGrid>
 
@@ -289,47 +241,15 @@ const ProjectsPage = ({data}) => (
 
 
 
-	<br/><br/><br/><br/><br/>
-				
+
+	<br/><br/><br/>
+
+
 	<PageGride3Layout>
 	<br/>
 	<br/>
 	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
 	</PageGride3Layout>
-	
-	<PageGrid3>
-
-	<PortfolioTitle2>
-	DRIBBLE
-	</PortfolioTitle2>
-	
-	<HeaderSubtitle2>
-			
-			<video width="320" height="240" autoPlay loop muted>
-  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/mp4" />
-  <source src="/ezgif-2-9490e5b96e93.mp4" type="video/ogg" />
-  Your browser does not support the video tag.
-</video>
-			
-	</HeaderSubtitle2>	
-
-	</PageGrid3>
-
 	
 
   </React.Fragment>
@@ -673,7 +593,7 @@ const SiteSocial = styled.ul`
 const IconMail = styled.ul`
 a {
 	&:hover {
-		color: #f1d592;
+		color: #ffcc00;
 		}
 	}
 `;
@@ -816,7 +736,7 @@ const PageGride3Layout = styled.div`
 background-color: hsla(0, 0%, 0%, 0.8);
 margin-left: -200px;
 margin-right: -200px;
-margin-bottom:-540px;
+margin-bottom:-200px;
 position: relative;
 z-index: -4;
 @media(max-width: 1055px) {
@@ -854,7 +774,7 @@ const HeaderTitle = styled.div`
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 35%;
+	max-width: 370px;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -862,7 +782,8 @@ const Line = styled.p`
 
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
-	max-width: 36%;
+	margin-top: -50px;
+	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );

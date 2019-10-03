@@ -47,58 +47,12 @@ const WritingPage = ({data}) => (
 		<Line>
 		<hr></hr>
 		</Line>
-		
-		<SiteSocial>
-			<li>
-				<IconMail>
-				<a href="mail:jude@judepark.com" target="_blank">
-					<FaEnvelope size={iconSize}/>
-				</a>
-				</IconMail>
-			</li>
-			<li>
-				<IconLinkedin>
-				<a href="https://www.linkedin.com/in/judepark/" target="_blank">
-					<FaLinkedin size={iconSize}/>
-				</a>
-				</IconLinkedin>
-			</li>
-			<li>
-				<IconInstagram>
-				<a href="https://www.instagram.com/judepark/" target="_blank">
-					<FaInstagram size={iconSize}/>
-				</a>
-				</IconInstagram>
-			</li>
-			<li>
-				<IconTwitter>
-				<a href="https://twitter.com/judepark/" target="_blank">
-					<FaTwitter size={iconSize}/>
-				</a>
-				</IconTwitter>
-			</li>
-			<li>
-				<IconDribble>
-				<a href="https://dribbble.com/judepark/" target="_blank">
-					<FaDribbble size={iconSize}/>
-				</a>
-				</IconDribble>
-			</li>
-			<li>
-				<IconGithub>
-				<a href="https://github.com/judepark/" target="_blank">
-					<FaGithub size={iconSize}/>
-				</a>
-				</IconGithub>
-			</li>
-		</SiteSocial>
-		
 
 		<HeaderSubtitle>
 			<br/>
-			An archive of all my writing. 
-			For specific blog posts about Fair Design, 
-			visit <a href="https://www.fairdesign.ca/ ">www.fairdesign.ca</a>
+			Archive of all my articles and books. 
+			Visit <a href="https://www.fairdesign.ca/ ">www.fairdesign.ca</a> for 
+			design blog posts.
 
 		</HeaderSubtitle>
 	</PageGrid>
@@ -114,7 +68,7 @@ const WritingPage = ({data}) => (
 
 
 	<PortfolioTitle>
-	ARCHIVE
+	ARTICLES
 	</PortfolioTitle>
 
 
@@ -126,36 +80,14 @@ const WritingPage = ({data}) => (
 	</PageGrid2>
 
 
-	<br/><br/><br/><br/><br/>
-				
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
-	
 
-	
+
+
 	<PageGrid3b>
 
-	<PortfolioTitle2>
-	MY LIBRARY
-	</PortfolioTitle2>
+	<PortfolioTitle>
+	BOOKS
+	</PortfolioTitle>
 
 	<PageGrid4>
 
@@ -238,7 +170,17 @@ const WritingPage = ({data}) => (
 
 	</PageGrid3b>
 
+
+	<br/><br/><br/>
+
+
+	<PageGride3Layout>
+	<br/>
+	<br/>
+	<br/>
+	</PageGride3Layout>
 	
+
 	
   </React.Fragment>
 )
@@ -581,7 +523,7 @@ const SiteSocial = styled.ul`
 const IconMail = styled.ul`
 a {
 	&:hover {
-		color: #f1d592;
+		color: #ffcc00;
 		}
 	}
 `;
@@ -719,7 +661,7 @@ const PageGride3Layout = styled.div`
 background-color: hsla(0, 0%, 0%, 0.8);
 margin-left: -200px;
 margin-right: -200px;
-margin-bottom:-540px;
+margin-bottom:-200px;
 position: relative;
 z-index: -4;
 @media(max-width: 1055px) {
@@ -730,6 +672,7 @@ z-index: -4;
 const PageGrid4 = styled.div`
 display: flex;
 overflow:hidden;
+margin-top: -80px;
 `;
 
 const PageGrid5 = styled.div`
@@ -756,7 +699,7 @@ const HeaderTitle = styled.div`
 const Line = styled.p`
 	animation: ${fadeInDown} 1s;
 	marginBottom: 1em;
-	width: 35%;
+	width: 370px;
 	@media(max-width: 820px) {
 		width: 100%;
 	}
@@ -764,7 +707,8 @@ const Line = styled.p`
 
 const HeaderSubtitle = styled.div`
 	margin-bottom: 0px;
-	max-width: 36%;
+	margin-top: -50px;
+	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
@@ -860,11 +804,11 @@ const PortfolioTitle3 = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: #f8f7f3;
+	color: hsla(0, 0%, 0%, 0.35);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
-	padding-left: 200px;
+	padding-left: 190px;
 	animation: ${fadeInDown} 1s;
 	transform: rotate(90deg);
 	@media(maxs-width: 425px) {
