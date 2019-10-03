@@ -640,7 +640,8 @@ const PageGrid3 = styled.div`
 const PageGrid3b = styled.div`
 	display: inline-grid;
 	position: relative;
-	margin-bottom: -160px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	padding-right: 0px;
 	max-width: 50%;
 	overflow-x: hidden;
@@ -650,10 +651,9 @@ const PageGrid3b = styled.div`
 	}
 	@media(max-width: 1055px) {
 		padding-top:30px;
-		margin-top: 160px;
+		margin-top: 50px;
 		padding-bottom:30px;
 		max-width: 100%;
-		background-color: hsla(0, 0%, 0%, 0.8);
 	}
 `;
 
@@ -673,10 +673,17 @@ const PageGrid4 = styled.div`
 display: flex;
 overflow:hidden;
 margin-top: -80px;
+@media(max-width: 1055px) {
+	width: 100%;
+}
+
 `;
 
 const PageGrid5 = styled.div`
 flex: 50%;
+@media(max-width: 1055px) {
+	width: 100%;
+}
 `;
 
 
@@ -779,7 +786,7 @@ const PortfolioTitle = styled.div`
 	letter-spacing: 0.5px;
 	font-weight: normal;
 	animation: ${fadeInDown} 1s;
-	@media(maxs-width: 425px) {
+	@media(max-width: 425px) {
 	}
 `;
 
@@ -794,7 +801,7 @@ const PortfolioTitle2 = styled.div`
 	letter-spacing: 0.5px;
 	font-weight: normal;
 	animation: ${fadeInDown} 1s;
-	@media(maxs-width: 425px) {
+	@media(max-width: 425px) {
 	}
 `;
 
@@ -811,7 +818,8 @@ const PortfolioTitle3 = styled.div`
 	padding-left: 190px;
 	animation: ${fadeInDown} 1s;
 	transform: rotate(90deg);
-	@media(maxs-width: 425px) {
+	@media(max-width: 425px) {
+		
 	}
 `;
 
@@ -890,6 +898,9 @@ margin-bottom:-30px
 
 
 const BookShelfContainer = styled.div`
+@media(max-width: 1055px) {
+	width: 100%;
+}
 a {
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -906,6 +917,7 @@ a {
 &:hover {
 
 	}
+
 `;
 
 const ComicContainer = styled.div`
@@ -937,6 +949,9 @@ grid-template-rows: repeat(2, 0fr);
 margin-bottom: 20px;
 grid-gap: 0px 20px;
 animation: ${fadeInDown} 1s;
+@media(max-width: 1055px) {
+	width: 100%;
+}
 &:hover {
 
 	}

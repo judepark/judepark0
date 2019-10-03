@@ -658,6 +658,10 @@ pre tt:after {
 	html {
 		font-size: 100%;
 	}
+	body {
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
 }
 
 /* Overrides */

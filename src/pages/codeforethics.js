@@ -193,9 +193,10 @@ const HeaderSubtitle = styled.div`
 
 const HeaderColumn = styled.div`
 	columns: 2;
-	column-gap: 50px;
+	column-gap: 40px;
 	column-rule: 1.5px solid hsla(0, 0%, 0%, 0.35);
 	margin-bottom: 100px;
+	animation: ${fadeInDown} 0.5s;
 	@media(max-width: 425px) {
 	}
 `;
@@ -349,6 +350,7 @@ const ArticleCardGrid = styled.div`
 		grid-template-columns: 1fr;
 	}
 `;
+
 
 const Line = styled.p`
 	animation: ${fadeInDown} 0.5s;

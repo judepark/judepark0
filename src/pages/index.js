@@ -1248,10 +1248,10 @@ color: hsla(0, 0%, 0%, 0.35);
 		color: hsla(0, 0%, 0%, 0.35);
 	}
 	a:hover {
-		font-weight: bold;
+		font-weight: 800;
 	}
 	@media(max-width: 1100px) {
-		margin-left: 20px;
+		margin-left: 38px;
 	}
 `;
 

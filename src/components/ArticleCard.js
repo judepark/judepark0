@@ -57,6 +57,7 @@ const ArticleCardContainer = styled.div`
 		opacity: 1;
 	}
 	@media(max-width: 700px) {
+		width: 100%;
 	}
 `;
 

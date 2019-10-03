@@ -498,8 +498,8 @@ const HeaderSubtitle = styled.div`
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 1s;
-	@media(max-width: 425px) {
-		
+	@media(max-width: 1055px) {
+		max-width: 100%;
 	}
 `;
 
@@ -522,8 +522,8 @@ const HeaderSubtitle1 = styled.div`
 			}
 		}
 	}
-	@media(max-width: 425px) {
-		
+	@media(max-width: 1055px) {
+		max-width: 65%;
 	}
 `;
 
