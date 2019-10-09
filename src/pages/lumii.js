@@ -160,17 +160,6 @@ const LumiiPage = ({data}) => (
 
 
 
-<div class="photo-grid-container">
-<div class="photo-grid">
-
-<video width="100%" controls >
-<source src="/demo.mp4" type="video/mp4"/>
-</video>
-
-</div>
-</div>
-<p class="photo-grid-subtitle">Introducing Lumii</p>
-
 
 
 	</PageGrid>
