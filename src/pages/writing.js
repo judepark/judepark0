@@ -508,7 +508,7 @@ const SiteSocial = styled.ul`
 			font-size: 0.7rem;
 			font-weight: 500;
 			text-decoration: none;
-			color: hsla(0, 0%, 0%, 0.35);
+			color: hsla(0, 0%, 0%, 0.65);
 			transition: all 0.3s;
 		}
 	}
@@ -719,7 +719,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -741,7 +741,7 @@ const HeaderSubtitle1 = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -781,7 +781,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -811,7 +811,7 @@ const PortfolioTitle3 = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -845,12 +845,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -870,12 +869,11 @@ a {
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;

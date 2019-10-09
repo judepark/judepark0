@@ -60,36 +60,6 @@ const LooPage = ({data}) => (
 
 	<br/>
 
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
-
-	<div class="scroll--helper">
-  	<div class="container">
-  	</div>
-	</div>
-
-	<div class="mouse">
-	<div class="wheel"></div>
-	</div>
-
 	
 	<PageGrid3>
 
@@ -183,7 +153,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 800;
@@ -208,7 +178,7 @@ const HeaderDescription = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -224,7 +194,7 @@ const HeaderDescription2 = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -242,7 +212,7 @@ const HeaderSubtitle2 = styled.div`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: -.02em;
 	line-height: 1.35;
 	font-weight: normal;
@@ -257,7 +227,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -272,7 +242,7 @@ const PortfolioTitle2 = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -299,12 +269,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -329,14 +298,13 @@ margin-top: 10px;
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 7px + (12 - 7) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
-		color: hsla(0, 0%, 0%, 0.35);
+		color: hsla(0, 0%, 0%, 0.65);
 		}
 `;
 

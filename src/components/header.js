@@ -14,11 +14,39 @@ const Header = () => (
 					src={logo}
 				/>
 			</Link>
+
+			⠀⠀<Link to="/about">ABOUT</Link>⠀⠀<Link to="/projects">PROJECTS</Link>⠀⠀<Link to="/writing">WRITING</Link>
+			
+
+
+  
 		</SiteLogoContainer>
+
+
 
 
 	</Navmenu>
 )
+
+/*
+
+			<div class="menu-wrap">
+    <input type="checkbox" class="toggler"/>
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/writing">Writing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+*/
 
 const Navmenu = styled.div`
 	width: 100%;
@@ -96,6 +124,15 @@ const SiteLogoContainer = styled.div`
 	padding: 50px 0px 0px 0px;
 	@media (max-width: 1155px) {
 		padding: 0px;
+	}
+	a {
+		font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+		color: hsla(0, 0%, 0%, 0.65);
+		line-height: 1.35;
+		letter-spacing: 0.5px;
+		font-weight: normal;
 	}
 `
 

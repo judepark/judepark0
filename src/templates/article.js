@@ -93,7 +93,7 @@ export default function Template({ data }) {
 		</Line>
 
 		<HeaderTitle accentColor={data.markdownRemark.frontmatter.accentColor}>
-			<strong>Jude Park</strong> is a writer who writes to feel less lonely.
+			<strong>Jude Park</strong> is a User Experience Design Researcher passionate about insights and user-driven data.
 		</HeaderTitle>
 		
 		<SiteSocial accentColor={data.markdownRemark.frontmatter.accentColor}>
@@ -196,7 +196,7 @@ const MetaHeader = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	filter: opacity(100%);
 	letter-spacing: 0.5px;
 	line-height: 1.35;
@@ -382,7 +382,7 @@ const ArticleDetailsTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -398,7 +398,7 @@ const ArticleDetailsContent = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	word-spacing: 30px;
 	letter-spacing: 0.5px;
@@ -425,7 +425,7 @@ const ImageAuthor = styled.div`
 	margin-bottom: 100px;
 	margin-top: -500px;
 	z-index:3;
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	animation: ${fadeInDown} .5s;
 	/*width: 100%;*/
 	li {
@@ -490,7 +490,7 @@ const SiteSocial = styled.ul`
 			font-size: 0.7rem;
 			font-weight: 500;
 			text-decoration: none;
-			color: hsla(0, 0%, 0%, 0.35);
+			color: hsla(0, 0%, 0%, 0.65);
 			transition: all 0.3s;
 			color: ${props => props.accentColor};
 		}

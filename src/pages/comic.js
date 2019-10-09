@@ -155,7 +155,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: -.02em;
 	line-height: 1.35;
 	font-weight: normal;
@@ -170,7 +170,7 @@ const HeaderSubtitle2 = styled.div`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: -.02em;
 	line-height: 1.35;
 	font-weight: normal;
@@ -185,7 +185,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -212,12 +212,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -50px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -242,14 +241,13 @@ margin-top: 10px;
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 7px + (12 - 7) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
-		color: hsla(0, 0%, 0%, 0.35);
+		color: hsla(0, 0%, 0%, 0.65);
 		}
 `;
 

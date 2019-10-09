@@ -47,7 +47,7 @@ const FairDesignPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			fairdesign.ca
+			<a href="https://www.fairdesign.ca/">fairdesign.ca</a>
 			<br/>
 			<br/>
             <span style={{fontWeight: "900", fontSize:"80%"}}>Goal of Research</span>
@@ -63,43 +63,19 @@ const FairDesignPage = ({data}) => (
 	</PageGrid2>
 
 	<br/>
+	<br/>
 
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
 
-	<div class="scroll--helper">
-  	<div class="container">
-  	</div>
-	</div>
 
-	<div class="mouse">
-	<div class="wheel"></div>
-	</div>
+	<PageGrid>
 
-	
-	<PageGrid3>
 
-	
 
-	</PageGrid3>
+
+
+	</PageGrid>
+
+
 
 
   </React.Fragment>
@@ -126,13 +102,37 @@ const PageGrid2 = styled.div`
 		display: grid;
 		max-width: 100%;
 	}
+	& img {
+
+		position:absolute;
+		margin-left: 150px;
+		margin-top: 100px;
+		
+`;
+
+const PageGrid2a = styled.div`
+	display: inline-grid;
+	max-width: 50%;
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
+	& > * {
+		grid-column: center;
+	}
+	@media(max-width: 1000px) {
+		display: none;
+	}
+	& img {
+
+		position:absolute;
+		margin-left: 150px;
+		margin-top: 100px;
+		
 `;
 
 const PageGrid3 = styled.div`
 	display: inline-grid;
 	max-width: 40%;
 	margin-bottom:-120px;
-	background-color: white;
+	background-color: hsla(0, 0%, 0%, 0.65);
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -187,7 +187,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 800;
@@ -198,9 +198,10 @@ const HeaderSubtitle = styled.div`
 
 const HeaderColumn = styled.div`
 	columns: 2;
-	column-gap: 50px;
+	column-gap: 40px;
 	column-rule: 1.5px solid hsla(0, 0%, 0%, 0.35);
 	margin-bottom: 100px;
+	animation: ${fadeInDown} 0.5s;
 	@media(max-width: 425px) {
 	}
 `;
@@ -212,7 +213,7 @@ const HeaderDescription = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -228,12 +229,21 @@ const HeaderDescription2 = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 0.5s;
 	@media(max-width: 425px) {
+	}
+	a {
+		font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
+		color: hsla(0, 0%, 0%, 0.65);
+		letter-spacing: 0.2px;
+		line-height: 1.5;
+		font-weight: 700;
 	}
 `;
 
@@ -246,7 +256,7 @@ const HeaderSubtitle2 = styled.div`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: -.02em;
 	line-height: 1.35;
 	font-weight: normal;
@@ -261,7 +271,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -276,7 +286,7 @@ const PortfolioTitle2 = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -303,12 +313,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -333,14 +342,13 @@ margin-top: 10px;
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 7px + (12 - 7) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
-		color: hsla(0, 0%, 0%, 0.35);
+		color: hsla(0, 0%, 0%, 0.65);
 		}
 `;
 
@@ -355,6 +363,7 @@ const ArticleCardGrid = styled.div`
 	}
 `;
 
+
 const Line = styled.p`
 	animation: ${fadeInDown} 0.5s;
 	margin-bottom: 15px;
@@ -362,6 +371,12 @@ const Line = styled.p`
 	@media(max-width: 820px) {
 		width: 100%;
 	}
+`;
+
+const Wheel = styled.p`
+@media(max-width: 1000px) {
+	display: none;
+}
 `;
 
 

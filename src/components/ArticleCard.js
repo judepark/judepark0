@@ -66,14 +66,14 @@ const Title = styled.div`
 font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.5;
 letter-spacing: 0.2px;
 margin-bottom: 0px;
 margin-top: 0px;
 font-weight: 700;
 margin-right: 20px;
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 animation: ${fadeInDown} 1s;
 	transition: opacity 0.3s;
 	:hover {
@@ -85,7 +85,7 @@ const Date = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	margin-top: 0px;
 	margin-bottom: 0px;
 	line-height: 1.35;

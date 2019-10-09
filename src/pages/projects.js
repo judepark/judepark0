@@ -76,12 +76,14 @@ const ProjectsPage = ({data}) => (
 <ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>C</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="/codeforethics">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Code for Ethics</h4>
+<h4>Open Source Project / Online Repositories / Programming</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -92,12 +94,14 @@ const ProjectsPage = ({data}) => (
 <ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>B</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="https://dribbble.com/shots/7083094-Bookies">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Bookies</h4>
+<h4>UI Concept / Interaction Design / Mobile App</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -107,12 +111,14 @@ const ProjectsPage = ({data}) => (
 <ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="https://dribbble.com/shots/6729418-Book-of-Revelations">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Book of Revelations</h4>
+<h4>Writing / Book</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -132,46 +138,52 @@ const ProjectsPage = ({data}) => (
 	<ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>J</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
-</AchiveList>
-
-</ArchiveColumn>
-
-
-
-
-<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
-</Alphabet>
-
-<AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
-</AchiveList>
-
-</ArchiveColumn>
-
-
-
-<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
-</Alphabet>
-
-<AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>JUDE Journal</h4>
+<h4>Magazine / Layout Design / Content Strategy</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>	
+
+
+	<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>L</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/loo">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Loo</h4>
+<h4>Mobile App / Crowd-Sourcing Algorithms</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/lumii">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Lumii</h4>
+<h4>Artificial Intelligence / Chatbot / Mobile App</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
 
 	</PageGrid2>
 
@@ -185,12 +197,14 @@ const ProjectsPage = ({data}) => (
 	<ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>M</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Mental Health Services UX Poster</h4>
+<h4>User Research / Poster / Design</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -201,12 +215,14 @@ const ProjectsPage = ({data}) => (
 <ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>N</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="https://dribbble.com/shots/6906366-One-Poster-Mockup">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Nightstand</h4>
+<h4>Radio / Podcast / Literature</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -216,12 +232,14 @@ const ProjectsPage = ({data}) => (
 <ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>A</h6>
+<h6 style={{marginBottom: "1.5px"}}>F</h6>
 </Alphabet>
 
 <AchiveList>
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Kafta, Kafta</h4>
-<h4>⠀⠀AnimationAnimationAnimationAnimationAnimationAnimationAnimationAnimation</h4>
+<a href="/fairdesign">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Fair Design</h4>
+<h4>Research Topic / Design Framework</h4>
+</a>
 </AchiveList>
 
 </ArchiveColumn>
@@ -578,7 +596,7 @@ const SiteSocial = styled.ul`
 			font-size: 0.7rem;
 			font-weight: 500;
 			text-decoration: none;
-			color: hsla(0, 0%, 0%, 0.35);
+			color: hsla(0, 0%, 0%, 0.65);
 			transition: all 0.3s;
 		}
 	}
@@ -787,7 +805,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -803,7 +821,7 @@ const HeaderSubtitle1 = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -843,7 +861,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -906,12 +924,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -931,12 +948,12 @@ a {
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;

@@ -51,7 +51,7 @@ const LumiiPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			judepark.com
+			<a href="https://www.judepark.com/article/2017-12-01---Designing-an-AI-ChatBot-Personal-Career-Agent-to-Solve-Youth-Unemployment/">judepark.com</a>
 			<br/>
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Brand</span>
@@ -65,29 +65,23 @@ const LumiiPage = ({data}) => (
 
 	</PageGrid2>
 
+	<PageGrid2a>
+
+	<div class="photo-grid-container">
+<div class="photo-grid">
+
+<img height="100%" src="lumii.png"/>
+
+</div>
+</div>
+
+
+</PageGrid2a>
+
 	<br/>
 
-	<PageGride3Layout>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	</PageGride3Layout>
 
+<Wheel>
 	<div class="scroll--helper">
   	<div class="container">
   	</div>
@@ -96,13 +90,90 @@ const LumiiPage = ({data}) => (
 	<div class="mouse">
 	<div class="wheel"></div>
 	</div>
+</Wheel>
 
 
-	<PageGrid3>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<PageGrid>
+
+
+	<div class="photo-grid-container">
+<div class="photo-grid">
+
+<video width="100%" autoPlay loop muted>
+<source src="/ezgif-2-9490e5b96e93.mp4" type="video/mp4"/>
+</video>
+
+</div>
+</div>
+<p class="photo-grid-subtitle">Lumii interaction samples: Greeting</p>
+
+
+<div class="photo-grid-container">
+<div class="photo-grid">
+
+<video width="100%" autoPlay loop muted>
+<source src="/lumii-interaction2.mp4" type="video/mp4"/>
+</video>
+
+</div>
+</div>
+<p class="photo-grid-subtitle">Lumii interaction samples: Conversation</p>
+
+
+<div class="photo-grid-container">
+<div class="photo-grid">
+
+<img width="100%"  src="CompetitiveAnalysis.png"/>
+</div>
+</div>
+<p class="photo-grid-subtitle">Competitive Analysis of products and services that aims to help youth acheive employment</p>
+
+
+<div class="photo-grid-container">
+<div class="photo-grid">
+
+<img width="100%" src="1.jpg"/>
+<img width="100%" src="2.jpg"/>
+
+</div>
+</div>
+<p class="photo-grid-subtitle">Sponsorship Pitch</p>
+
+<div class="photo-grid-container">
+<div class="photo-grid">
+
+<img width="100%" src="4.jpg"/>
+<img width="100%" src="3.jpg"/>
+
+</div>
+</div>
+<p class="photo-grid-subtitle">Our Lumii Team</p>
 
 
 
-	</PageGrid3>
+<div class="photo-grid-container">
+<div class="photo-grid">
+
+<video width="100%" controls >
+<source src="/demo.mp4" type="video/mp4"/>
+</video>
+
+</div>
+</div>
+<p class="photo-grid-subtitle">Introducing Lumii</p>
+
+
+
+	</PageGrid>
 
 
 
@@ -131,13 +202,37 @@ const PageGrid2 = styled.div`
 		display: grid;
 		max-width: 100%;
 	}
+	& img {
+
+		position:absolute;
+		margin-left: 150px;
+		margin-top: 100px;
+		
+`;
+
+const PageGrid2a = styled.div`
+	display: inline-grid;
+	max-width: 50%;
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
+	& > * {
+		grid-column: center;
+	}
+	@media(max-width: 1000px) {
+		display: none;
+	}
+	& img {
+
+		position:absolute;
+		margin-left: 150px;
+		margin-top: 100px;
+		
 `;
 
 const PageGrid3 = styled.div`
 	display: inline-grid;
 	max-width: 40%;
 	margin-bottom:-120px;
-	background-color: white;
+	background-color: hsla(0, 0%, 0%, 0.65);
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
@@ -192,7 +287,7 @@ const HeaderSubtitle = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 800;
@@ -218,7 +313,7 @@ const HeaderDescription = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -234,12 +329,21 @@ const HeaderDescription2 = styled.div`
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 0.5s;
 	@media(max-width: 425px) {
+	}
+	a {
+		font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-size: calc( 10px + (12 - 10) * (100vw - 400px) / (1300 - 400) );
+		color: hsla(0, 0%, 0%, 0.65);
+		letter-spacing: 0.2px;
+		line-height: 1.5;
+		font-weight: 700;
 	}
 `;
 
@@ -252,7 +356,7 @@ const HeaderSubtitle2 = styled.div`
 	font-family: 'Crimson Text', serif,	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 19px + (25 - 19) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: -.02em;
 	line-height: 1.35;
 	font-weight: normal;
@@ -267,7 +371,7 @@ const PortfolioTitle = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -282,7 +386,7 @@ const PortfolioTitle2 = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: hsla(0, 0%, 0%, 0.65);
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
@@ -309,12 +413,11 @@ a {
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
 		animation: ${MoveUp} 0.3s;
 		animation-fill-mode: forwards;
@@ -339,14 +442,13 @@ margin-top: 10px;
 font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 font-size: calc( 7px + (12 - 7) * (100vw - 400px) / (1300 - 400) );
-color: hsla(0, 0%, 0%, 0.35);
+color: hsla(0, 0%, 0%, 0.65);
 line-height: 1.35;
 letter-spacing: 0.5px;
 margin-bottom: -5px;
 font-weight: normal;
-color: hsla(0, 0%, 0%, 0.35);
 	&:hover {
-		color: hsla(0, 0%, 0%, 0.35);
+		color: hsla(0, 0%, 0%, 0.65);
 		}
 `;
 
@@ -370,5 +472,12 @@ const Line = styled.p`
 		width: 100%;
 	}
 `;
+
+const Wheel = styled.p`
+@media(max-width: 1000px) {
+	display: none;
+}
+`;
+
 
 export default LumiiPage
