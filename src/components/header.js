@@ -59,6 +59,10 @@ const Navmenu = styled.div`
 	top: 0;
 	z-index: 2;
 	animation: ${fadeIn} 1.3s;
+	@media (max-width: 1155px) {
+		position: fixed;
+		background:#f8f7f3;
+	}
 `
 
 const SitePages = styled.ul`

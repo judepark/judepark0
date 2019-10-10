@@ -139,7 +139,7 @@ const AboutPage = ({data}) => (
 			  <input id="tab-4" type="radio" name="tabs"/> 
 			  <label for="tab-4">Who are you outside of your work?</label>
 			  <div class="tab-content">
-				  <h4>I am an ex-refugee, orphaned by my parents, assault survivor, grew up in Jane and Weston, 
+				  <h4>I am an ex-refugee, orphan, assault survivor, grew up in Jane and Weston, 
 		LGBT+ member. I'm also incredibly resourceful, thoughtful and creative. I love to swim, write, code. 
 		I help out with the non-profit <a href="https://www.bridgetoyouth.com/">BridgeTO</a>.
 				</h4>
@@ -179,10 +179,10 @@ const AboutPage = ({data}) => (
 	<h6 style={{fontWeight: "400", marginBottom: "3px"}}>RBC</h6>
 	<h4 style={{fontSize:"50%", marginBottom: "31px"}}>Toronto, Ontario</h4>
 
-	<h4 style={{fontSize:"50%", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "10px"}}>2013 - 2016</h4>
+	<h4 style={{fontSize:"50%", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "10px"}}>2009 - 2016</h4>
 	<h3 style={{fontWeight: "700", color: "hsla(0, 0%, 0%, 0.8)", marginBottom: "0px"}}>
 	Librarian</h3>
-	<h6 style={{fontWeight: "400", marginBottom: "3px"}}>TPL, ect.</h6>
+	<h6 style={{fontWeight: "400", marginBottom: "3px"}}>TPL / OPS / UofT / ect.</h6>
 	<h4 style={{fontSize:"50%", marginBottom: "31px"}}>Toronto, Ontario</h4>
 	</Resume>
 

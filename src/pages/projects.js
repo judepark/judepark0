@@ -138,6 +138,23 @@ const ProjectsPage = ({data}) => (
 	<ArchiveColumn>
 
 <Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>F</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/fairdesign">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Fair Design</h4>
+<h4>Research Topic / Design Framework</h4>
+</a>
+</AchiveList>
+
+	</ArchiveColumn>
+
+
+
+	<ArchiveColumn>
+
+<Alphabet>
 <h6 style={{marginBottom: "1.5px"}}>J</h6>
 </Alphabet>
 
@@ -158,28 +175,11 @@ const ProjectsPage = ({data}) => (
 </Alphabet>
 
 <AchiveList>
-<a href="/loo">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Loo</h4>
-<h4>Mobile App / Crowd-Sourcing Algorithms</h4>
-</a>
-</AchiveList>
-
-</ArchiveColumn>
-
-
-
-
-<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
-</Alphabet>
-
-<AchiveList>
 <a href="/lumii">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Lumii</h4>
 <h4>Artificial Intelligence / Chatbot / Mobile App</h4>
 </a>
+
 </AchiveList>
 
 </ArchiveColumn>
@@ -197,6 +197,23 @@ const ProjectsPage = ({data}) => (
 	<ArchiveColumn>
 
 <Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/loo">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Loo</h4>
+<h4>Mobile App / Crowd-Sourcing Algorithms</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
 <h6 style={{marginBottom: "1.5px"}}>M</h6>
 </Alphabet>
 
@@ -208,7 +225,6 @@ const ProjectsPage = ({data}) => (
 </AchiveList>
 
 </ArchiveColumn>
-
 
 
 
@@ -228,22 +244,6 @@ const ProjectsPage = ({data}) => (
 </ArchiveColumn>
 
 
-
-<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>F</h6>
-</Alphabet>
-
-<AchiveList>
-<a href="/fairdesign">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Fair Design</h4>
-<h4>Research Topic / Design Framework</h4>
-</a>
-</AchiveList>
-
-</ArchiveColumn>
-
 	</PageGrid3>
 
 
@@ -260,8 +260,19 @@ const ProjectsPage = ({data}) => (
 
 
 
+
 	<br/><br/><br/>
 
+	<PageGrid>
+
+		
+		<HeaderSubtitle>
+			<br/>
+			More work on <a href="https://dribbble.com/judepark" target="_blank">Dribble</a>
+		</HeaderSubtitle>
+	</PageGrid>
+
+	<br/><br/><br/>
 
 	<PageGride3Layout>
 	<br/>
@@ -810,6 +821,21 @@ const HeaderSubtitle = styled.div`
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 1s;
+	a {
+		margin-bottom: 0px;
+		margin-top: -50px;
+		max-width: 370px;
+		font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+		color: hsla(0, 0%, 0%, 0.65);
+		letter-spacing: 0.2px;
+		line-height: 1.5;
+		font-weight: 700;
+		animation: ${fadeInDown} 1s;
+		display: inline;
+		}
+	}
 	@media(max-width: 425px) {
 		
 	}
@@ -1054,14 +1080,22 @@ margin-top: 10px;
 
 const ArchiveColumn = styled.div`
 display: flex;
+animation: ${fadeInDown} 1s;
 `;
 
 const Alphabet = styled.div`
 margin-right: 20px;
+cursor: default;
 `;
 
 const AchiveList = styled.div`
 max-width: 40%;
+max-width: 100%;
+&:hover {
+	animation: ${MoveUp} 0.3s;
+	animation-fill-mode: forwards;
+	color: #f8f7f3;
+	}
 `;
 
 
