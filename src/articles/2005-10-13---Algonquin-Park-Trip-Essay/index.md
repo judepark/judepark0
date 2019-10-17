@@ -10,6 +10,7 @@ thumb: "1.jpeg"
 imageauthor: "Off Track Travel"
 highlight: "no"
 showLiveContent: false
+type: article
 ---
 
 > I wrote this essay after a school trip. Reading it reminds me of the sights I saw back then. I must have been no more than 13 years old.

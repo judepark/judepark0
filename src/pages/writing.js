@@ -718,7 +718,7 @@ const HeaderSubtitle = styled.div`
 	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
@@ -740,7 +740,7 @@ const HeaderSubtitle1 = styled.div`
 	max-width: 80%;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;

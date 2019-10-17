@@ -91,6 +91,7 @@ const Date = styled.div`
 	line-height: 1.35;
 	letter-spacing: 0.5px;
 	font-weight: normal;
+	animation: ${fadeInDown} 1s;
 	@media(max-width: 700px) {
 		
 	}

@@ -81,8 +81,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="/codeforethics">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Code for Ethics</h4>
-<h4>Open Source Project / Online Repositories / Programming</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Code for Ethics</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Open Source Project / Online Repositories / Programming</h4>
 </a>
 </AchiveList>
 
@@ -99,8 +99,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="https://dribbble.com/shots/7083094-Bookies">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Bookies</h4>
-<h4>UI Concept / Interaction Design / Mobile App</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Bookies</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>UI Concept / Interaction Design / Mobile App</h4>
 </a>
 </AchiveList>
 
@@ -116,8 +116,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="https://dribbble.com/shots/6729418-Book-of-Revelations">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Book of Revelations</h4>
-<h4>Writing / Book</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Book of Revelations</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Writing / Book</h4>
 </a>
 </AchiveList>
 
@@ -143,8 +143,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="/fairdesign">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Fair Design</h4>
-<h4>Research Topic / Design Framework</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Fair Design</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Research Topic / Design Framework</h4>
 </a>
 </AchiveList>
 
@@ -160,8 +160,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>JUDE Journal</h4>
-<h4>Magazine / Layout Design / Content Strategy</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>JUDE Journal</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Magazine / Layout Design / Content Strategy</h4>
 </a>
 </AchiveList>
 
@@ -176,8 +176,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="/lumii">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Lumii</h4>
-<h4>Artificial Intelligence / Chatbot / Mobile App</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Lumii</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Artificial Intelligence / Chatbot / Mobile App</h4>
 </a>
 
 </AchiveList>
@@ -202,8 +202,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="/loo">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Loo</h4>
-<h4>Mobile App / Crowd-Sourcing Algorithms</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Loo</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Mobile App / Crowd-Sourcing Algorithms</h4>
 </a>
 </AchiveList>
 
@@ -219,8 +219,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Mental Health Services UX Poster</h4>
-<h4>User Research / Poster / Design</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Mental Health Services UX Poster</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>User Research / Poster / Design</h4>
 </a>
 </AchiveList>
 
@@ -236,8 +236,8 @@ const ProjectsPage = ({data}) => (
 
 <AchiveList>
 <a href="https://dribbble.com/shots/6906366-One-Poster-Mockup">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px"}}>Nightstand</h4>
-<h4>Radio / Podcast / Literature</h4>
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Nightstand</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Radio / Podcast / Literature</h4>
 </a>
 </AchiveList>
 
@@ -266,10 +266,10 @@ const ProjectsPage = ({data}) => (
 	<PageGrid>
 
 		
-		<HeaderSubtitle>
+		<HeaderSubtitle0>
 			<br/>
 			More work on <a href="https://dribbble.com/judepark" target="_blank">Dribble</a>
-		</HeaderSubtitle>
+		</HeaderSubtitle0>
 	</PageGrid>
 
 	<br/><br/><br/>
@@ -815,38 +815,63 @@ const HeaderSubtitle = styled.div`
 	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	font-weight: 700;
 	animation: ${fadeInDown} 1s;
+	@media(max-width: 425px) {
+		
+	}
+
+`;
+
+const HeaderSubtitle0 = styled.div`
+	margin-bottom: 0px;
+	margin-top: -50px;
+	max-width: 370px;
+	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.65);
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	font-weight: 700;
 	a {
 		margin-bottom: 0px;
 		margin-top: -50px;
 		max-width: 370px;
 		font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+		font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 		color: hsla(0, 0%, 0%, 0.65);
 		letter-spacing: 0.2px;
 		line-height: 1.5;
 		font-weight: 700;
-		animation: ${fadeInDown} 1s;
 		display: inline;
+		padding: 15px 15px 15px 0px;
 		}
+	&: hover {
+		animation: ${MoveUp}  0.4s;
+		animation-iteration-count: 3;
+		animation-direction: reverse;
+		transition-timing-function: ease-in-out;
 	}
 	@media(max-width: 425px) {
 		
 	}
+	}
+
 `;
+
 
 const HeaderSubtitle1 = styled.div`
 	margin-bottom: 0px;
 	max-width: 80%;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
@@ -862,7 +887,7 @@ const HeaderSubtitle2 = styled.div`
 	max-width: 600px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: #f8f7f3;
 	letter-spacing: 0.2px;
 	line-height: 1.5;

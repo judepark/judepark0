@@ -50,7 +50,7 @@ const AboutPage = ({data}) => (
 
 		<HeaderSubtitle>
 			<br/>
-			"With my seat at the table, I will bring voices that can mobilize people to make smart decisions."
+			"With my seat at the table, I bring voices that can mobilize smart decisions."
 
 		</HeaderSubtitle>
 	</PageGrid2>
@@ -75,12 +75,11 @@ const AboutPage = ({data}) => (
 
 			Hi, it's nice to virtually meet you.
 			<br/>
-			⠀⠀My name is Jude Park. I'm a user experience designer who promotes fair design thinking through 
-			my products and services.
+			⠀⠀My name is Jude Park. I'm a user experience designer who mobilize people through fair design thinking.
 			<br/>
 			⠀⠀For the past 3 years I have worked in startups, innovation labs and entrepreneurship fellowships.
 			<br/>
-			⠀⠀I studied User Experience, Information Systems, Library Science at University of Toronto (Masters) 
+			⠀⠀I studied User Experience Design, Information Systems Design, Information Science at University of Toronto (Masters) 
 			and Anthropology, Linguistics, History at Trent University (Bachelors).
 			<br/>
 			⠀⠀I was born in South Korea, moved to Canada when I was nine, grew up in Jane and Weston of Toronto.
@@ -106,9 +105,9 @@ const AboutPage = ({data}) => (
 			  <input id="tab-1" type="radio" name="tabs"/> 
 			  <label for="tab-1" >Where are you working right now?</label>
 			  <div class="tab-content">
-			  	<h4>I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
+			  	I believe in creating your own opportunities. Which is why I started Loo, a venture that aims to help you find
 			accessible public toilets in your city.
-				  </h4>
+				  
 			  </div>
 		  </div>
 		  
@@ -117,9 +116,9 @@ const AboutPage = ({data}) => (
 			  <input id="tab-2" type="radio" name="tabs"/> 
 			  <label for="tab-2" >What's your working style? What makes you different?</label>
 			  <div class="tab-content">
-				  <h4>As a designer, I prioritize the user experience of my design systems.
-		I believe in ethical responsibilities, and creating an accessible future for all.
-					</h4>
+				  As a designer, I prioritize the user experience of my design systems.
+		As an individual, I believe in ethical responsibilities, and creating an accessible future for all.
+					
 			  </div>
 		  </div>
 
@@ -128,9 +127,10 @@ const AboutPage = ({data}) => (
 			  <input id="tab-3" type="radio" name="tabs"/> 
 			  <label for="tab-3" >Why this line of work?</label>
 			  <div class="tab-content">
-				  <h4>I've done enough of hiding behind schools and degrees and jobs. 
-					  I want to go after big things before it's too late.
-				</h4>
+				  I like to invent new things. I love working in creative environments 
+					  and being a designer allows me to express myself creatively to solve problems. 
+					  I also like technology - thinking, writing, and talking about how it can transform our lives.
+				
 			  </div>
 		  </div>
 
@@ -139,10 +139,10 @@ const AboutPage = ({data}) => (
 			  <input id="tab-4" type="radio" name="tabs"/> 
 			  <label for="tab-4">Who are you outside of your work?</label>
 			  <div class="tab-content">
-				  <h4>I am an ex-refugee, orphan, assault survivor, grew up in Jane and Weston, 
+				  I am an ex-refugee, orphan, assault survivor, grew up in Jane and Weston, 
 		LGBT+ member. I'm also incredibly resourceful, thoughtful and creative. I love to swim, write, code. 
 		I help out with the non-profit <a href="https://www.bridgetoyouth.com/">BridgeTO</a>.
-				</h4>
+				
 			  </div>
 		  </div>
 		  
@@ -492,7 +492,7 @@ const HeaderSubtitle = styled.div`
 	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 16px + (18 - 16) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;
@@ -508,7 +508,7 @@ const HeaderSubtitle1 = styled.div`
 	max-width: 370px;
 	font-family: 'Nanum Myeongjo', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) );
+	font-size: calc( 12px + (14 - 12) * (100vw - 400px) / (1300 - 400) );
 	color: hsla(0, 0%, 0%, 0.65);
 	letter-spacing: 0.2px;
 	line-height: 1.5;

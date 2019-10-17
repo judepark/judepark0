@@ -86,7 +86,6 @@ export default function Template({ data }) {
 		<br/>
 		<br/>
 
-
 		<Footer themeColor={data.markdownRemark.frontmatter.themeColor}>
 
 		<Line>
@@ -94,7 +93,7 @@ export default function Template({ data }) {
 		</Line>
 
 		<HeaderTitle accentColor={data.markdownRemark.frontmatter.accentColor}>
-			<strong>Jude Park</strong> is a User Experience Designer working in Toronto, inventing new things and telling stories. He runs on tea and books and crunchyroll.
+			<strong>Jude Park</strong> is a User Experience Design Researcher passionate about insights and user-driven data.
 		</HeaderTitle>
 		
 		<SiteSocial accentColor={data.markdownRemark.frontmatter.accentColor}>
@@ -309,7 +308,7 @@ const ArticlePostTitle = styled.h1`
 	margin-top: 250px;
 	font-weight: normal;
 	text-align: left;
-	max-width: 510px;
+	max-width: 720px;
 	background-color: white;
 	display:block;
 	z-index: 5;
@@ -332,8 +331,7 @@ const ArticleContentGrid = styled.div`
 
 const ArticleContentGrid2 = styled.div`
 	display: grid;
-	width: 54.5%;
-	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 12fr);
+	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 720px) [end] minmax(24px, 12fr);
 	animation: ${fadeInUp} 1.8s;
 
 	& > * {
@@ -346,11 +344,6 @@ const ArticleContentGrid2 = styled.div`
 			color: ${props => props.accentColor};
 		}
 	}
-
-	@media(max-width: 900px) {
-		width: 100%;
-	}
-	
 `;
 
 const ArticleDetails = styled.div`
@@ -620,7 +613,7 @@ margin-bottom:-30px
 
 
 export const query = graphql`
-	query ArticleBySlug($slug: String!) {
+	query ProjectBySlug($slug: String!) {
 		site {
 			siteMetadata {
 				title
