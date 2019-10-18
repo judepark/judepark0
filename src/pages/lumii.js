@@ -51,7 +51,7 @@ const LumiiPage = ({data}) => (
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
 			<br/>
-			<a href="https://www.judepark.com/article/2017-12-01---Designing-an-AI-ChatBot-Personal-Career-Agent-to-Solve-Youth-Unemployment/">judepark.com</a>
+			<a href="https://www.judepark.com/article/2017-12-01---Designing-an-AI-ChatBot-Personal-Career-Agent-to-Solve-Youth-Unemployment/">Case Study</a>
 			<br/>
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Brand</span>
@@ -65,18 +65,46 @@ const LumiiPage = ({data}) => (
 
 	</PageGrid2>
 
-	<PageGrid2a>
+<PageGrid2a>
 
-	<div class="photo-grid-container">
-<div class="photo-grid">
 
-<img height="100%" src="lumii.png"/>
 
-</div>
-</div>
+<img height="100%" src="lumiicover.png"/>
+
 
 
 </PageGrid2a>
+
+
+
+<br/><br/><br/><br/><br/><br/>
+
+
+
+<PageGrid>
+
+
+<video width="" height="550" autoPlay controls loop muted>
+  <source src="lumiivid1.mp4" type="video/mp4" />
+  <source src="lumiivid1.ogg" type="video/ogg" />
+Your browser does not support the video tag.
+</video>
+
+
+
+<video width="" height="550" autoPlay controls loop muted>
+  <source src="lumiivid2.mp4" type="video/mp4" />
+  <source src="lumiivid2.ogg" type="video/ogg" />
+Your browser does not support the video tag.
+</video>
+
+
+<img width="950" src="lumiicompetitiveanalysis.png"/>
+
+<img width="950" src="lumiiphotoset.png"/>
+</PageGrid>
+
+
 
   </React.Fragment>
 )
@@ -88,6 +116,18 @@ const PageGrid = styled.div`
 	grid-template-columns: [start] minmax(24px, 1fr) [center] minmax(auto, 1100px) [end] minmax(24px, 1fr);
 	& > * {
 		grid-column: center;
+	}
+	 & img {
+		text-align: center;
+	 }
+	 @media(max-width: 1000px) {
+		margin-top: 450px;
+		& img {
+			width: 100%;
+		}	
+		& video {
+			width: 100%;
+		}	
 	}
 `;
 
@@ -118,15 +158,17 @@ const PageGrid2a = styled.div`
 		grid-column: center;
 	}
 	@media(max-width: 1000px) {
-		display: none;
+		display: grid;
+		max-width: 100%;
 	}
 	& img {
-
+		text-align: right;
 		position:absolute;
 		margin-left: 150px;
 		margin-top: 100px;
-		
+		padding: 0px 0px 0px 0px;
 `;
+
 
 const PageGrid3 = styled.div`
 	display: inline-grid;

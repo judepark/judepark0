@@ -236,8 +236,6 @@ const AboutPage = ({data}) => (
 			</li>
 		</SiteSocial>
 
-
-
 	</PageGrid2>
 
 	<br/><br/><br/>
@@ -395,6 +393,7 @@ const PageGrid2 = styled.div`
 	@media(max-width: 1055px) {
 		display: grid;
 		max-width: 100%;
+		margin-top: 40px;
 	}
 `;
 

@@ -104,30 +104,30 @@ const IndexPage = ({data}) => (
 </li>
 </a>
 
-<a href="/codeforethics">
+<a href="/supportingfacultyresponsetostudentmentalhealth">
 <li style={{paddingBottom: "5px"}}>
 <EachList>
 		<HeaderTitle1>
-		Code for Ethics
+		Mental Health
 		</HeaderTitle1>
 
 		<HeaderSubtitle1>
-			Repository of Ethical Codes
+			User Research / Poster Design
 		</HeaderSubtitle1>
 </EachList>
 </li>
 </a>
 
-<a href="/loo">
+<a href="/robartslibrarykiosks">
 <li style={{paddingBottom: "5px"}}>
 <EachList>
 
 		<HeaderTitle1>
-		Loo
+		Robarts Kiosks
 		</HeaderTitle1>
 
 		<HeaderSubtitle1>
-			Public Toilet Finder
+			User Research / Experience Map / UI Design
 		</HeaderSubtitle1>
 </EachList>
 </li>
@@ -141,7 +141,7 @@ const IndexPage = ({data}) => (
 	<br/><br/><br/>
 				
 	<PageGride3Layout>
-	<br/>
+
 	<br/>
 	<br/>
 	<br/>
@@ -275,7 +275,15 @@ const IndexPage = ({data}) => (
 
 	</PageGrid3>
 
+	<PageFooter>
+		<div>
+      <footer>
+			© {new Date().getFullYear()} JUDE PARK <div style={{fontSize:"70%"}}>Designed with 💛 in Toronto</div>
+			 <div style={{fontSize:"70%"}}>Built with Gatsby, Netlify.</div>
+        </footer>
+        </div>
 
+	</PageFooter>
 	
 
   </React.Fragment>
@@ -646,7 +654,79 @@ I draw a comic a day (mostly), have my own podcast show, make animation shorts, 
 
 
 	</PageGrid3b>
-			
+
+
+
+
+		<PageGrid2>
+
+	<PortfolioTitle>
+	FEATURED
+	</PortfolioTitle>
+
+<List>
+
+<a href="/lumii">
+<li style={{paddingBottom: "5px"}}>
+<EachList>
+		<HeaderTitle1>
+		Lumii
+		</HeaderTitle1>
+
+		<HeaderSubtitle1>
+			Personal Career Agent AI
+		</HeaderSubtitle1>
+</EachList>
+</li>
+</a>
+
+
+<a href="/fairdesign">
+<li style={{paddingBottom: "5px"}}>
+<EachList>
+		<HeaderTitle1>
+		Fair Design
+		</HeaderTitle1>
+
+		<HeaderSubtitle1>
+			Social Privilege Measurement Research
+		</HeaderSubtitle1>
+</EachList>
+</li>
+</a>
+
+<a href="/codeforethics">
+<li style={{paddingBottom: "5px"}}>
+<EachList>
+		<HeaderTitle1>
+		Code for Ethics
+		</HeaderTitle1>
+
+		<HeaderSubtitle1>
+			Repository of Ethical Codes
+		</HeaderSubtitle1>
+</EachList>
+</li>
+</a>
+
+<a href="/loo">
+<li style={{paddingBottom: "5px"}}>
+<EachList>
+
+		<HeaderTitle1>
+		Loo
+		</HeaderTitle1>
+
+		<HeaderSubtitle1>
+			Public Toilet Finder
+		</HeaderSubtitle1>
+</EachList>
+</li>
+</a>
+
+</List>
+
+	</PageGrid2>
 */
 
 
@@ -835,7 +915,7 @@ const PageGride3Layout = styled.div`
 background-color: hsla(0, 0%, 0%, 0.8);
 margin-left: -200px;
 margin-right: -200px;
-margin-bottom:-540px;
+margin-bottom:-520px;
 position: relative;
 z-index: -4;
 @media(max-width: 1055px) {
@@ -1285,6 +1365,34 @@ color: hsla(0, 0%, 0%, 0.65);
 	}
 `;
 
+
+const PageFooter = styled.div`
+	display: flex;
+	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
+	color: hsla(0, 0%, 0%, 0.35);
+  padding: 0px 20px;
+  margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: -100px;
+  flex-direction: row;
+  align-items: flex-end;
+	justify-content: flex-end;
+
+	@media(max-width: 1155px) {
+		padding: 0 24px;
+	}
+	
+	@media(max-width: 715px) {
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		margin-bottom: -200px;
+		padding: 24px 24px;
+	}
+
+`;
 
 export default IndexPage
 

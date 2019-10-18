@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Jude Park',
-		description: 'Jude Park is a User Experience Designer and Researcher',
+		description: 'Designer, UX.',
 		siteUrl: "https://judepark.com"
 	},
 	plugins: [
@@ -46,13 +46,6 @@ module.exports = {
 			options: {
 				path: `${__dirname}/src/articles`,
 				name: 'articles',
-			},
-		},
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				path: `${__dirname}/src/projects`,
-				name: 'projects',
 			},
 		},
 		{

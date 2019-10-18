@@ -50,7 +50,7 @@ const ProjectsPage = ({data}) => (
 		
 		<HeaderSubtitle>
 			<br/>
-			This is my complete portfolio of things I built, designed, created.
+			This is my complete list of things I built, designed, created.
 		</HeaderSubtitle>
 	</PageGrid>
 
@@ -82,7 +82,7 @@ const ProjectsPage = ({data}) => (
 <AchiveList>
 <a href="/codeforethics">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Code for Ethics</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Open Source Project / Online Repositories / Programming</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Source Code Repository</h4>
 </a>
 </AchiveList>
 
@@ -100,7 +100,7 @@ const ProjectsPage = ({data}) => (
 <AchiveList>
 <a href="https://dribbble.com/shots/7083094-Bookies">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Bookies</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>UI Concept / Interaction Design / Mobile App</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Social App for Bibliophiles</h4>
 </a>
 </AchiveList>
 
@@ -115,13 +115,31 @@ const ProjectsPage = ({data}) => (
 </Alphabet>
 
 <AchiveList>
-<a href="https://dribbble.com/shots/6729418-Book-of-Revelations">
+<a href="/bookofrevelations">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Book of Revelations</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Writing / Book</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>A Collection of Essays</h4>
 </a>
 </AchiveList>
 
 </ArchiveColumn>
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>F</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/fairdesign">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Fair Design</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Research / Design Framework</h4>
+</a>
+</AchiveList>
+
+	</ArchiveColumn>
+
 
 	</PageGrid1>
 
@@ -135,40 +153,40 @@ const ProjectsPage = ({data}) => (
 
 	<PageGrid2>
 
-	<ArchiveColumn>
+<ArchiveColumn>
 
 <Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>F</h6>
+<h6 style={{marginBottom: "1.5px"}}>H</h6>
 </Alphabet>
 
 <AchiveList>
-<a href="/fairdesign">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Fair Design</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Research Topic / Design Framework</h4>
+<a href="/heyjudecomic">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Hey Jude~ Comic</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Webcomic Series</h4>
 </a>
 </AchiveList>
 
-	</ArchiveColumn>
+</ArchiveColumn>
 
 
 
-	<ArchiveColumn>
+<ArchiveColumn>
 
 <Alphabet>
 <h6 style={{marginBottom: "1.5px"}}>J</h6>
 </Alphabet>
 
 <AchiveList>
-<a href="https://dribbble.com/shots/6729227-JUDE-Journal-Vol-1">
+<a href="/judejournal">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>JUDE Journal</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Magazine / Layout Design / Content Strategy</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Digital Magazine</h4>
 </a>
 </AchiveList>
 
 </ArchiveColumn>	
 
 
-	<ArchiveColumn>
+<ArchiveColumn>
 
 <Alphabet>
 <h6 style={{marginBottom: "1.5px"}}>L</h6>
@@ -177,12 +195,30 @@ const ProjectsPage = ({data}) => (
 <AchiveList>
 <a href="/lumii">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Lumii</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Artificial Intelligence / Chatbot / Mobile App</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Personal Career Agent / AI Chatbot App</h4>
 </a>
 
 </AchiveList>
 
 </ArchiveColumn>
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/loo">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Loo</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Public Toilet Finding App</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
 
 
 	</PageGrid2>
@@ -194,39 +230,6 @@ const ProjectsPage = ({data}) => (
 
 	<PageGrid3>
 
-	<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
-</Alphabet>
-
-<AchiveList>
-<a href="/loo">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Loo</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Mobile App / Crowd-Sourcing Algorithms</h4>
-</a>
-</AchiveList>
-
-</ArchiveColumn>
-
-
-
-<ArchiveColumn>
-
-<Alphabet>
-<h6 style={{marginBottom: "1.5px"}}>M</h6>
-</Alphabet>
-
-<AchiveList>
-<a href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health">
-<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Mental Health Services UX Poster</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>User Research / Poster / Design</h4>
-</a>
-</AchiveList>
-
-</ArchiveColumn>
-
-
 
 <ArchiveColumn>
 
@@ -235,14 +238,67 @@ const ProjectsPage = ({data}) => (
 </Alphabet>
 
 <AchiveList>
-<a href="https://dribbble.com/shots/6906366-One-Poster-Mockup">
+<a href="/nightstand">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Nightstand</h4>
-<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Radio / Podcast / Literature</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Radio Show / Podcast</h4>
 </a>
 </AchiveList>
 
 </ArchiveColumn>
 
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>S</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Second Chance Fertility Clinic</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Website Design</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
+
+
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>⠀</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/supportingfacultyresponsetostudentmentalhealth">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Supporting Faculty Response to Student Mental Health</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>User Research / Poster Design</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
+
+
+
+<ArchiveColumn>
+
+<Alphabet>
+<h6 style={{marginBottom: "1.5px"}}>R</h6>
+</Alphabet>
+
+<AchiveList>
+<a href="/robartslibrarykiosks">
+<h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Robarts Library Kiosks</h4>
+<h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>User Research / Experience Map / UI Design</h4>
+</a>
+</AchiveList>
+
+</ArchiveColumn>
 
 	</PageGrid3>
 
@@ -854,7 +910,7 @@ const HeaderSubtitle0 = styled.div`
 		}
 	&: hover {
 		animation: ${MoveUp}  0.4s;
-		animation-iteration-count: 3;
+		animation-iteration-count: 2;
 		animation-direction: reverse;
 		transition-timing-function: ease-in-out;
 	}

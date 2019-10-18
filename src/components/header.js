@@ -15,7 +15,7 @@ const Header = () => (
 				/>
 			</Link>
 
-			⠀⠀<Link to="/about">ABOUT</Link>⠀⠀<Link to="/projects">PROJECTS</Link>⠀⠀<Link to="/writing">WRITING</Link>
+			⠀⠀<Link to="/about">ABOUT</Link>⠀⠀<Link to="/projects">PROJECTS</Link>⠀⠀<Link to="/blog">BLOG</Link>
 			
 
 
@@ -62,6 +62,7 @@ const Navmenu = styled.div`
 	@media (max-width: 1155px) {
 		position: fixed;
 		background:#f8f7f3;
+		margin-top: 0px;
 	}
 `
 
