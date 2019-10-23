@@ -15,8 +15,9 @@ const Header = () => (
 				/>
 			</Link>
 
-			⠀⠀<Link to="/about">ABOUT</Link>⠀⠀<Link to="/projects">PROJECTS</Link>⠀⠀<Link to="/blog">BLOG</Link>
-			
+			⠀⠀<LinkDisplay>
+				<Link to="/about">ABOUT</Link> <Link to="/projects">PROJECTS</Link> <Link to="/blog">BLOG</Link>
+				</LinkDisplay>
 
 
   
@@ -59,6 +60,7 @@ const Navmenu = styled.div`
 	top: 0;
 	z-index: 2;
 	animation: ${fadeIn} 1.3s;
+	cursor: default;
 	@media (max-width: 1155px) {
 		position: fixed;
 		background:#f8f7f3;
@@ -140,5 +142,11 @@ const SiteLogoContainer = styled.div`
 		font-weight: normal;
 	}
 `
+
+const LinkDisplay = styled.div`
+word-spacing: 15px;
+`
+
+
 
 export default Header

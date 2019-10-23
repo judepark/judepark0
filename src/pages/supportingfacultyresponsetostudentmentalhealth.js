@@ -40,14 +40,14 @@ const SupportingFacultyResponsetoStudentMentalHealthPage = ({data}) => (
 			2017
 			<br/>
 			<br/>
-			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
-			<br/>
-			<a href="https://dribbble.com/shots/6839229-UX-Research-Poster-Mental-Health" target="_blank">Dribble</a>
-			<br/>
-			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Role</span>
 			<br/>
 			UX Researcher
+			<br/>
+			<br/>
+			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
+			<br/>
+			<a href="https://www.judepark.com/article/2016-05-07---UX-Research-Project-Investigating-Canada's-Post-Secondary-Mental-Health-Ecosystem/" >Case Study</a>
 			<br/>
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Participants</span>

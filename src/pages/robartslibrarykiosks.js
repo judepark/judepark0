@@ -40,14 +40,14 @@ const RobartsLibraryKiosksPage = ({data}) => (
 			2018
 			<br/>
 			<br/>
-			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
-			<br/>
-			<a href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library" target="_blank">Dribble</a>
-			<br/>
-			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Role</span>
 			<br/>
 			UX Researcher
+			<br/>
+			<br/>
+			<span style={{fontWeight: "900", fontSize:"80%"}}>Link</span>
+			<br/>
+			<a href="https://dribbble.com/shots/6839242-Experience-Map-of-Robarts-Library" target="_blank">Dribble</a>
 			<br/>
 			<br/>
 			<span style={{fontWeight: "900", fontSize:"80%"}}>Participants</span>

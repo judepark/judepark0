@@ -278,7 +278,7 @@ const IndexPage = ({data}) => (
 	<PageFooter>
 		<div>
       <footer>
-			© {new Date().getFullYear()} JUDE PARK <div style={{fontSize:"70%"}}>Designed with 💛 in Toronto</div>
+			<div style={{fontSize:"70%"}}>© {new Date().getFullYear()} JUDE PARK</div> <div style={{fontSize:"70%"}}>Designed with 💛 in Toronto</div>
 			 <div style={{fontSize:"70%"}}>Built with Gatsby, Netlify.</div>
         </footer>
         </div>
@@ -1371,7 +1371,7 @@ const PageFooter = styled.div`
 	font-family: 'Product Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: calc( 12px + (17 - 12) * (100vw - 400px) / (1300 - 400) );
-	color: hsla(0, 0%, 0%, 0.35);
+	color: #f8f7f3;
   padding: 0px 20px;
   margin: 0 auto;
 	margin-top: 100px;
@@ -1390,6 +1390,7 @@ const PageFooter = styled.div`
 		align-items: flex-end;
 		margin-bottom: -200px;
 		padding: 24px 24px;
+		color: hsla(0, 0%, 0%, 0.65);
 	}
 
 `;

@@ -98,7 +98,7 @@ const ProjectsPage = ({data}) => (
 </Alphabet>
 
 <AchiveList>
-<a href="https://dribbble.com/shots/7083094-Bookies">
+<a href="https://dribbble.com/shots/7083094-Bookies" target="_blank">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Bookies</h4>
 <h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Social App for Bibliophiles</h4>
 </a>
@@ -255,7 +255,7 @@ const ProjectsPage = ({data}) => (
 </Alphabet>
 
 <AchiveList>
-<a href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance">
+<a href="https://dribbble.com/shots/6979124-Web-Design-Second-Chance" target="_blank">
 <h4 style={{fontWeight: "800", marginBottom: "1.5px", fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Second Chance Fertility Clinic</h4>
 <h4 style={{fontSize: "calc( 14px + (16 - 14) * (100vw - 400px) / (1300 - 400) )"}}>Website Design</h4>
 </a>
@@ -1177,6 +1177,10 @@ max-width: 100%;
 	animation-fill-mode: forwards;
 	color: #f8f7f3;
 	}
+
+a:hover:after {
+
+}
 `;
 
 
